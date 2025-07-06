@@ -7,10 +7,26 @@ Chacun est invité à lire, questionner, adapter et enrichir le programme.
 
 ---
 
+## Sommaire
+
+- [Programme2027 – Un programme politique vivant et open source](#programme2027--un-programme-politique-vivant-et-open-source)
+  - [Sommaire](#sommaire)
+  - [Pourquoi un programme vivant et open source ?](#pourquoi-un-programme-vivant-et-open-source)
+  - [Principes fondateurs](#principes-fondateurs)
+  - [Structure du programme](#structure-du-programme)
+  - [Comment contribuer ?](#comment-contribuer)
+  - [🇫🇷 France \& 🌍 International](#-france---international)
+  - [Licence](#licence)
+  - [Contacts \& échanges](#contacts--échanges)
+  - [Pour aller plus loin](#pour-aller-plus-loin)
+
+---
+
 ## Pourquoi un programme vivant et open source ?
 
 Les programmes politiques traditionnels sont souvent figés, opaques, déconnectés du vécu.  
 **Programme2027** fait le pari inverse :
+
 - Il évolue grâce aux contributions des citoyens, des professionnels et des agents publics.
 - Il est transparent, versionné sur GitHub, accessible à tous.
 - Ce n’est pas un catalogue de promesses, mais un cadre de reconstruction humaine, issu du terrain, des besoins et de l’expérience concrète.
@@ -28,7 +44,8 @@ Les programmes politiques traditionnels sont souvent figés, opaques, déconnect
 - **Équilibre collectif :** Personne ne décide seul, chaque voix compte.
 - **Contribution ouverte :** Tout citoyen peut suggérer, corriger ou enrichir le texte.
 
-Retrouvez le [texte intégral du manifeste](./medias/Programme.docx).
+📄 [Lire le manifeste original en ligne](https://www.jagrat.fr/programme-2027/)  
+📘 Une version PDF bilingue (FR/EN) sera bientôt disponible dans ce dépôt.
 
 ---
 
@@ -47,7 +64,7 @@ Retrouvez le [texte intégral du manifeste](./medias/Programme.docx).
 11. Écologie & Modes de vie  
 12. Fiscalité & Biens communs  
 13. Réconciliation & Vérités sociales  
-14. Défense, Souveraineté & Résilience civile  
+14. Défense, Souveraineté & Résilience civile
 
 ---
 
@@ -62,7 +79,27 @@ Retrouvez le [texte intégral du manifeste](./medias/Programme.docx).
 - **Suggérer de nouveaux principes, mesures ou structures :**  
   Aidez-nous à bâtir un programme ancré dans le réel et l’intelligence collective.
 
-Voir [CONTRIBUTING.md](./CONTRIBUTING.md) pour plus d’informations.
+- **Adapter le programme à votre pays ou région :**  
+  Forkez le dépôt, traduisez et ajustez le contenu, créez un dossier dédié à votre territoire.
+
+👉 Voir [CONTRIBUTING-FR.md](./CONTRIBUTING-FR.md) pour plus d’informations.
+
+---
+
+## 🇫🇷 France & 🌍 International
+
+Ce dépôt a été créé pour la France, avec un objectif clair : proposer une alternative citoyenne structurée d’ici à l’échéance présidentielle de 2027.
+
+Mais ce projet est **open source** et peut être **forké, adapté, traduit** pour d’autres pays, territoires ou réalités politiques.
+
+Vous pouvez :
+- Réutiliser la méthode, la structure et les principes
+- Traduire des parties du programme dans votre langue
+- Créer un dossier d’adaptation (`/adaptations/Canada`, `/adaptations/Sénégal`, etc.)
+- Établir une feuille de route sur un horizon différent, selon vos propres priorités
+
+👉 Voir [`ROADMAP-FR.md`](./ROADMAP-FR.md) pour le calendrier français  
+👉 Voir [`ROADMAP.md`](./ROADMAP.md) pour les forks internationaux à long terme
 
 ---
 
@@ -75,8 +112,16 @@ Utilisation, adaptation et partage libres, à condition de citer l’origine et 
 
 ## Contacts & échanges
 
-- Site officiel : [jagrat.fr](https://jagrat.fr)
-- Email : [Jagrat2027](mailto:jagrat2027@gmail.com)
+- 🌐 Site officiel : [jagrat.fr](https://www.jagrat.fr)
+- 📬 Email : [jagrat2027@gmail.com](mailto:jagrat2027@gmail.com)
+
+---
+
+## Pour aller plus loin
+
+- 📊 [Chiffrage complet du programme](./finance/Chiffrage.md)
+- 📘 [Méthode TOGAFrance – Transformation systémique](https://github.com/.../TOGAFrance)
+- ✉️ [Lettre ouverte aux élus](./vision/Lettre_aux_elus.md)
 
 ---
 
