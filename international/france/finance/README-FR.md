@@ -15,7 +15,7 @@ Pour garantir l’accessibilité, tous les contenus sont structurés **en deux l
 Chaque sous-dossier contient :
 - Un fichier README  
 - Les fichiers clés (`hypotheses.md`, `synthese.md`, décompositions thématiques)  
-- Les données d’appui (`/sources`, `/estimations`, `/resultats`)
+- Les données d’appui (`/sources`, `/estimations`, `/resultats`, `/budget`)
 
 ---
 

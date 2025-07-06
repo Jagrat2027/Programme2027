@@ -1,24 +1,29 @@
-# Sources for "Constitution & State"
+# 🔗 Useful Links – 01_Constitution_Etat
 
-## 1. Estimated cost of a national referendum
-- French Senate report: *Le Référendum* (comparative overview) ([PDF](https://www.senat.fr/rap/r06-043/r06-0431.pdf))
-- 2005 French European Constitution Referendum: analysis of cost and logistics ([Senate 2007 Report](https://www.senat.fr/rap/r07-188/r07-188_mono.html))
-- Comparative costs of referendums and elections across the EU ([Senate, 2018](https://www.senat.fr/rap/r18-073/r18-0731.pdf))
+This file lists public sources used to support cost estimates and policy assumptions.
 
-## 2. Implementation of civic education in middle schools
-- Ministry of Education annual budget (2019): ~€160 billion → €8,920 per student per year  
-  Reference: French Parliament education budget data
+## 📘 Institutional References
 
-## 3. National Sovereign People’s Day
-- Based on average cost of municipal civic ceremonies (e.g., May 8, Nov 11)  
-  Example: Belfort city cultural budget ~€2.3 million/year
+- [French Ministry of the Interior – Referendums](https://www.interieur.gouv.fr)  
+  → 2005 referendum cost estimate: ~€150 million
 
-## 4. Plain-language versions of legislation
-- Based on deliberative citizen panel practices (France, Canada, UK)
+- [Ministry of National Education – Annual budget data](https://www.education.gouv.fr)  
+  → Estimated cost per student for curriculum rollout: ~€500
 
-## 5. Physical currency infrastructure
-- Estimated cost of ATM upgrades, banking software updates, cashier training  
-  Inspired by Banque de France and cybersecurity agency reports
+- [French National Assembly – Legislative database](https://www.assemblee-nationale.fr/dyn/lois)  
+  → Average number of laws passed per year (for “plain language” reformulation)
 
-## 6. Civic Oath platform at age 18
-- Based on cost of public civic platforms (e.g., Service-Public.fr, ANCT portals)
+## 📊 Studies & Benchmarks
+
+- INSEE, France Stratégie, OECD: demographic and school population data  
+- Banque de France / France Numérique: ATM coverage and physical cash usage statistics
+
+## 📁 Internal TOGAFrance Documents
+
+- `TOGAFrance_Livret_Pratique.docx` → principles: clarity, reversibility, transmission  
+- `Programme.docx` → section on youth referendum, civic oath, constitution measures
+
+## 🧰 Complementary Tools
+
+- Open budget simulators: DIPLT, OpenBudgets.eu  
+- CESE & CNNum archives on youth participation and civic innovation

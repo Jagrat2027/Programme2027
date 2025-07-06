@@ -19,6 +19,7 @@ Il montre comment réutiliser la méthode, les principes et la structure dans un
 - `/finance/` → Budget national, modèles de financement, projections macro ou locales
 - `/vision/` → Préface locale, principes de base, diagnostic national
 - `ROADMAP.md` → Feuille de route nationale ou régionale
+- `/budget`
 - `README.md` → Ce fichier, traduit dans la langue du pays
 - Optionnel : `CONTRIBUTING.md`, `GOVERNANCE.md`, `CODE_OF_CONDUCT.md`
 

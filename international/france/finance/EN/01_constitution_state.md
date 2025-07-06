@@ -1,55 +1,78 @@
 # 01 — Constitution & State
 
-## 💶 Budget Estimate (2027–2030)
+## 💶 Budget Estimate (2027–2031)
 
-- **Low range: €1.5 billion**  
-- **High range: €2.5 billion**  
-(*Multi-year envelope over 4 years, excluding permanent effects*)
+- **Low estimate: €1.5 billion**  
+- **High estimate: €2.5 billion**  
+(*Multi-year envelope over 5 years, including initial investments and recurring measures*)
 
 ---
 
 ## 🧮 Detailed Assumptions
 
-**1. Citizen-led Constitution and enhanced civic education**
-- Creation of a mixed constituent assembly (random citizens, experts, elected officials):  
-  ~€30 million
-- National referendum (communication, logistics, supervision):  
-  ~€150–200 million
-- Implementation in secondary schools (curricula, training, learning materials):  
-  ~€300–400 million
+**1. Citizens’ Constitution + Youth Referendum (every 5 years)**  
+- Mixed assembly, drafting, public consultation, national vote:  
+  ~€350–500 million  
+- National platform for youth proposals (ages 16–25)
 
-**2. Annual Sovereign People’s Day**
-- Screen-free, ad-free civic day in each municipality (materials, logistics, coordination):  
-  ~€50–100 million per year (~€200–400 million over 4 years)
+**2. Civic Education in Middle School**  
+- Teacher training, educational materials, national rollout in 100% of schools:  
+  ~€300–500 million  
+- Role-playing, law reading, institutional literacy
 
-**3. “Plain language” versions of laws**
-- Citizen panels + expert validation + public release:  
-  ~€200–300 million total
+**3. Sovereign People’s Day (September 21)**  
+- Organized in 35,000 municipalities, screen-free and ad-free, with civic and cultural animation:  
+  ~€150–250 million  
+- Local events, facilitation kits, inclusive public spaces
 
-**4. Protection of physical currency**
-- Update of banking infrastructure, ATMs, staff training:  
-  ~€100 million
+**4. “Plain Language” Version of Laws**  
+- Citizens + legal committee, systematic publication of simplified versions for each law:  
+  ~€300–500 million  
+- Online and printed versions, accessible from age 15
 
-**5. Optional Republican Oath at 18**
-- Design of a symbolic civic portal, booklet, and digital platform:  
-  ~€20 million
+**5. Protection of Physical Currency**  
+- Maintenance of ATMs, public counter modernization, communication campaigns:  
+  ~€100–200 million
+
+**6. Republican Oath at Age 18**  
+- National civic platform (symbolic and participatory), local supports:  
+  ~€50–100 million
+
+---
+
+## 📊 Annual Budget Allocation (estimated range)
+
+| Measure                                   | Launch Year | 2027 | 2028 | 2029 | 2030 | 2031 | Total – Low (€M) | High (€M) |
+|-------------------------------------------|-------------|------|------|------|------|------|------------------|-----------|
+| Citizens’ Constitution + Youth Referendum | 2027        | 200  | 100  | 50   | 50   | 50   | 350              | 500       |
+| Civic Education in Middle School          | 2027        | 100  | 100  | 100  | 100  | 100  | 300              | 500       |
+| Sovereign People’s Day                    | 2028        | 0    | 30   | 40   | 40   | 40   | 150              | 250       |
+| “Plain Language” Law Versions             | 2028        | 50   | 60   | 70   | 60   | 60   | 300              | 500       |
+| Physical Currency Safeguard               | 2027        | 60   | 40   | 30   | 30   | 40   | 100              | 200       |
+| Republican Oath + Civic Platform          | 2027        | 30   | 20   | 20   | 15   | 15   | 50               | 100       |
+
+_Note: Some measures imply significant one-time investments, others have recurring operational costs._
 
 ---
 
 ## 📌 Sources & References
 
-- Based on historical costs of national referendums (e.g. 2005 EU referendum ≈ €150 million)
-- Ministry of Education estimates: €500 per student over 3 years for new curriculum rollout
-- Civic experiment costs drawn from TOGAFrance pilots and real-world citizen engagement
-- Coverage assumed at 75–100% of national population by 2030
+- 2005 EU referendum cost: ~€150M (French Ministry of the Interior)  
+- Educational rollout: ~€500 per student (Ministry estimate)  
+- TOGAFrance reference: mixed committees, citizen reviews, simplified grammar  
+- Implementation goal: 75–100% coverage of schools and municipalities by 2030  
 
 ---
 
-## 📈 Associated Objectives (from the main programme)
-- 100% of high school students understand the Constitution (civic version taught)
-- Youth referendum in place by 2028
-- All laws include a plain-language summary by 2029
-- Physical currency protected in the Constitution
+## 📈 Targets by 2030 (from the main programme)
+
+- 100% of high school students understand the Constitution (simplified version taught)  
+- Youth referendum operational by 2028  
+- All laws published with a “plain language” summary by 2029  
+- Constitutional guarantee of physical currency  
+- One screen-free Civic Day per year in every municipality  
 
 👉 See global assumptions in `../hypotheses.md`  
-👉 See consolidated projections in `../summary.md`
+👉 See consolidated projections in `../synthese.md`  
+👉 Related budget file:  
+`../finance/EN/01_constitution_etat/budget_annuel_constitution_etat.xlsx`

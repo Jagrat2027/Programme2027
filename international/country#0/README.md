@@ -18,6 +18,7 @@ It demonstrates how to reuse the method, principles, and structure in a new loca
 - `/programme/` – Thematic chapters (translated or restructured)
 - `/finance/` – National budget, funding models, macro or local estimations
 - `/vision/` – Local context, guiding values, or civic preface
+- `/budget`
 - `ROADMAP.md` – Timeline for national or regional milestones
 - `README.md` – This file, in the local language
 - Optionally: `CONTRIBUTING.md`, `GOVERNANCE.md`, `CODE_OF_CONDUCT.md`

@@ -21,13 +21,14 @@ Every country has its own path, but we share:
 Each country has its own folder:
 
 - `/france/` – original version (2025–2027 roadmap)
-- `/canada/` – early adaptation
+- `/country#0/` – example of adaptation
 - `/[your-country]/` – feel free to fork and contribute
 
 Inside each country folder, you may include:
 
 - `/programme/` – adapted political chapters
 - `/vision/` – preface, values, national context
+- `/budget`
 - `roadmap.md` – local timeline
 - `README.md` – description in your own language
 

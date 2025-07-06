@@ -15,7 +15,7 @@ To ensure accessibility and clarity, all content is structured **bilingually**:
 Each subfolder contains:
 - A README
 - Core files (`hypotheses.md`, `synthese.md`, thematic breakdowns)
-- Supporting data (in `/sources`, `/estimations`, `/resultats`)
+- Supporting data (in `/sources`, `/estimations`, `/resultats`, `/budget`)
 
 ---
 

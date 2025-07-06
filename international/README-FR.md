@@ -29,6 +29,7 @@ Chaque adaptation peut inclure :
 
 - `/programme/` – chapitres politiques adaptés
 - `/vision/` – préface, principes, contexte local
+- `/budget`
 - `roadmap.md` – chronologie nationale
 - `README.md` – présentation locale (dans votre langue)
 
