@@ -110,6 +110,12 @@ Free to use, adapt, and share — as long as the source is credited and the lice
 
 ---
 
+🛠️ **Important Note:**  
+Programme2027 is a living, open-source political framework. Adaptations, forks, or translations are allowed and encouraged — but remain the sole responsibility of their authors.  
+This original repository does not validate or supervise external versions. It remains the official reference for the original program and its intent.
+
+---
+
 ## Contacts & Exchanges
 
 - 🌐 Official site: [jagrat.fr](https://www.jagrat.fr)

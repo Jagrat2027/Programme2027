@@ -110,6 +110,12 @@ Utilisation, adaptation et partage libres, à condition de citer l’origine et 
 
 ---
 
+🛠️ **Note importante :**  
+Programme2027 est un cadre politique vivant et open source. Les adaptations, forks ou traductions sont autorisés et encouragés — mais relèvent entièrement de la responsabilité de leurs auteurs.  
+Ce dépôt d’origine ne valide ni ne contrôle les déclinaisons externes. Il reste la référence officielle du programme tel qu’il a été conçu.
+
+---
+
 ## Contacts & échanges
 
 - 🌐 Site officiel : [jagrat.fr](https://www.jagrat.fr)
