@@ -7,7 +7,8 @@
 
 👉 Voir hypothèses globales dans `../hypotheses.md`  
 👉 Voir projections consolidées dans `../synthese.md`  
-👉 Voir le détail annuel dans `../finance/FR/08_travail_solidarites_budget_FR.xlsx`
+👉 Voir le détail annuel dans `./finance/FR/budget/08_travail_solidarites/08_travail_solidarites_budget_FR.xlsx`
+
 
 ---
 

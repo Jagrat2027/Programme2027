@@ -7,7 +7,8 @@
 
 👉 Voir hypothèses globales dans `../hypotheses.md`  
 👉 Voir projections consolidées dans `../synthese.md`  
-👉 Voir le détail annuel dans `../finance/FR/09_enfance_transmission_budget_FR.xlsx`
+👉 Voir le détail annuel dans `./finance/FR/budget/09_enfance_transmission/09_enfance_transmission_budget_FR.xlsx`
+
 
 ---
 

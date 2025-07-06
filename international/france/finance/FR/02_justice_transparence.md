@@ -5,9 +5,9 @@
 - **Fourchette basse : 4,2 milliards €**
 - **Fourchette haute : 6,5 milliards €**
 
-👉 Voir hypothèses générales dans `../hypotheses.md`  
+👉 Voir hypothèses globales dans `../hypotheses.md`  
 👉 Voir projections consolidées dans `../synthese.md`  
-👉 Voir le détail annuel dans `../finance/FR/02_justice_transparence_budget_FR.xlsx`
+👉 Voir le détail annuel dans `./finance/FR/budget/02_souverainete_sanitaire/02_souverainete_sanitaire_budget_FR.xlsx`
 
 ---
 

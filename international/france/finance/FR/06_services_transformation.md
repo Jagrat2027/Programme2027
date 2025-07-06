@@ -7,7 +7,7 @@
 
 👉 Voir hypothèses globales dans `../hypotheses.md`  
 👉 Voir projections consolidées dans `../synthese.md`  
-👉 Voir le détail annuel dans `../finance/FR/06_services_publics_transformation_budget_FR.xlsx`
+👉 Voir le détail annuel dans `./finance/FR/budget/06_justice_fiscale/06_justice_fiscale_budget_FR.xlsx`
 
 ---
 

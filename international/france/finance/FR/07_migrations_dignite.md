@@ -7,7 +7,7 @@
 
 👉 Voir hypothèses globales dans `../hypotheses.md`  
 👉 Voir projections consolidées dans `../synthese.md`  
-👉 Voir le détail annuel dans `../finance/FR/07_migrations_dignite_budget_FR.xlsx`
+👉 Voir le détail annuel dans `./finance/FR/budget/07_migrations_dignite/07_migrations_dignite_budget_FR.xlsx`
 
 ---
 

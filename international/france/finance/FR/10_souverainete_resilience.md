@@ -7,7 +7,8 @@
 
 👉 Voir hypothèses globales dans `../hypotheses.md`  
 👉 Voir projections consolidées dans `../synthese.md`  
-👉 Voir le détail annuel dans `../finance/FR/10_souverainete_resilience_budget_FR.xlsx`
+👉 Voir le détail annuel dans `./finance/FR/budget/10_souverainete_resilience/10_souverainete_resilience_budget_FR.xlsx`
+
 
 ---
 

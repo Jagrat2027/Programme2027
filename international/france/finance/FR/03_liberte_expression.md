@@ -7,7 +7,7 @@
 
 👉 Voir hypothèses globales dans `../hypotheses.md`  
 👉 Voir projections consolidées dans `../synthese.md`  
-👉 Voir le détail annuel dans `../finance/FR/03_liberte_expression_budget_FR.xlsx`
+👉 Voir le détail annuel dans `./finance/FR/budget/03_souverainete_education/03_souverainete_education_budget_FR.xlsx`
 
 ---
 

@@ -7,7 +7,7 @@
 
 👉 Voir hypothèses globales dans `../hypotheses.md`  
 👉 Voir projections consolidées dans `../synthese.md`  
-👉 Voir le détail annuel dans `../finance/FR/05_diplomatie_geopolitique_budget_FR.xlsx`
+👉 Voir le détail annuel dans `./finance/FR/budget/05_republique_exemplaire/05_republique_exemplaire_budget_FR.xlsx`
 
 ---
 

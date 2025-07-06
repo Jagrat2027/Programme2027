@@ -7,7 +7,7 @@
 
 👉 Voir hypothèses globales dans `../hypotheses.md`  
 👉 Voir projections consolidées dans `../synthese.md`  
-👉 Voir le détail annuel dans `../finance/FR/04_democratie_vivante_budget_FR.xlsx`
+👉 Voir le détail annuel dans `./finance/FR/budget/04_democratie_vivante/04_democratie_vivante_budget_FR.xlsx`
 
 ---
 

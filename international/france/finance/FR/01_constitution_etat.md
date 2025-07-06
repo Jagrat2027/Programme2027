@@ -5,6 +5,10 @@
 - **Fourchette basse : 1,5 milliard €**  
 - **Fourchette haute : 2,5 milliards €**  
 (*Enveloppe pluriannuelle sur 5 ans, incluant investissements initiaux et dispositifs récurrents*)
+  
+👉 Voir hypothèses globales dans `../hypotheses.md`  
+👉 Voir projections consolidées dans `../synthese.md`  
+👉 Voir le détail annuel dans `./finance/FR/budget/01_souverainete_alimentaire/01_souverainete_alimentaire_budget_FR.xlsx`
 
 ---
 
