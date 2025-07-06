@@ -82,7 +82,7 @@ Traditional political platforms are often rigid, opaque, and disconnected from t
 - **Adapt the program for your own country:**  
   You may fork the repository, translate and adjust the content, and use the framework as a base for local action.
 
-👉 See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
+👉 See [CONTRIBUTING.md](./CONTRIBUTNG.md) for detailed guidelines.
 
 ---
 
