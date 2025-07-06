@@ -1,47 +1,66 @@
-# 🗒️ Research Notes – 10_Security_Resilience
+# 🗒️ Research Notes – 10_Sovereignty_Resilience
 
-Cost assumptions and technical hypotheses supporting the measures proposed for internal security and civil resilience.
-
-## 📊 General Methodology
-
-- Estimates expressed in millions of euros with a 50% margin between low/high scenarios  
-- Distribution across 2027–2030 based on legal and territorial complexity  
-- Cost structure: training, coordination, equipment, civic mobilization
+Summary of cost assumptions by sovereign and resilience-based measure.
 
 ---
 
-## 🔍 Assumptions by Theme
+## 🧾 1. Privatization moratorium
 
-### 1. Upgraded Universal Civic Service
-- 100,000 young volunteers per year with raised stipends and broader mission scope  
-- Budget includes mentoring, digital platforms, and local partnerships  
-- Duration per volunteer: 9 to 12 months
-
-### 2. Territorial Citizen Guard
-- Target: 15,000 trained citizen guards by 2030  
-- Inspired by local civil reserves, with added civic and mediation modules  
-- Cost = recruitment + training + availability allowance + coordination
-
-### 3. National School of Resilience
-- Physical school creation + ongoing decentralized public sector training  
-- 2,000 agents trained per year from public, health, and safety sectors  
-- Costs include facilities, curricula, publications
-
-### 4. Ethical Watch & Whistleblower Protection
-- National and regional reporting units with legal independence  
-- Legal aid, confidentiality, social protection, and ethics officer training  
-- High strategic value for public institutions and large enterprises
-
-### 5. Municipal Solidarity Safety Plan
-- 30,000 municipalities targeted by 2030  
-- Update or creation of communal safety plans with civic solidarity focus  
-- Resources: public engagement, mapping, intermunicipal coordination
+- Deployment of 1,000 citizen audit teams with public legal experts  
+- Legal back-audits, local restitution, legal surveillance tools  
+- Public platforms to visualize past privatizations  
+- 💡 Estimate: **€400–600 M**
 
 ---
 
-## ⚠️ Limits and Uncertainties
+## 🌾 2. Food sovereignty
 
-- Unequal preparedness across territories  
-- Social acceptance of new guard or alert mechanisms  
-- Fragmented data on local resilience capacity  
-- Long-term benefits (cohesion, prevention, autonomy) not monetized
+- 5,000 subsidized local food cooperatives  
+- Localized storage infrastructure and basic supply chains  
+- Support for 10,000 community kitchens or local school canteens  
+- 💡 Estimate: **€1,200–1,800 M**
+
+---
+
+## ⚡ 3. Energy sovereignty
+
+- Support for 5,000 citizen-owned energy projects (non-nuclear)  
+- Territorial sobriety action plan with local engagement  
+- Exit funds from foreign-controlled energy dependencies  
+- 💡 Estimate: **€1,400–1,800 M**
+
+---
+
+## 💶 4. Assertive monetary sovereignty
+
+- Strengthening of cash circulation through physical networks  
+- Legal and digital tools for complementary/local currencies  
+- Creation of a National Monetary Council for policy alternatives  
+- 💡 Estimate: **€600–800 M**
+
+---
+
+## 🖥️ 5. Ethical digital & public tech
+
+- Public sovereign cloud (infrastructure, training, operations)  
+- Legal obligation for physical alternatives to digital-only services  
+- Algorithmic transparency and transition to open-source in all admin systems  
+- 💡 Estimate: **€1,000–1,300 M**
+
+---
+
+## 🧑‍⚖️ 6. Treaty overhaul
+
+- Public monitoring platform for international agreements  
+- Multilingual translation & simplification of foundational texts  
+- Local legal literacy workshops for EU & global treaties  
+- 💡 Estimate: **€400–600 M**
+
+---
+
+## 🏛️ 7. Local legal empowerment
+
+- Definition of 5 devolvable sovereign domains (food, housing, digital...)  
+- One legal resilience officer per commune (>1,000 residents)  
+- Participatory legal drafting platform for municipalities  
+- 💡 Estimate: **€1,000–1,100 M**

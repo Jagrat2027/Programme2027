@@ -1,47 +1,57 @@
-# 🗒️ Notes de recherche – 11_Écologie_Modesdevie
+# 🗒️ Notes de recherche – 11_Ecologie_ModesDeVie
 
-Hypothèses de coût, logiques incitatives et leviers mobilisés pour estimer l’impact des mesures écologiques et fiscales.
-
-## 📊 Méthodologie générale
-
-- Budgets exprimés en millions d’euros, intégrant déploiement, incitations, systèmes d’accompagnement  
-- Scénario haut estimé à +50 % pour intégrer marges d’adaptation territoriale  
-- Approche mixte : investissement public, effet fiscal, dispositifs incitatifs
+Synthèse des hypothèses de coûts pour chaque mesure écologique du pilier XI.
 
 ---
 
-## 🔍 Hypothèses par thème
+## ♻️ 1. Crédit d’impôt “mode de vie durable”
 
-### 1. Réparateur·rice par bassin de vie
-- Objectif : 1 réparateur pour 5 000 habitants → ~13 000 postes labellisés  
-- Coût = formation initiale + aides à l’installation + labellisation publique  
-- Enveloppe progressive sur 4 ans (implantation territoriale équilibrée)
-
-### 2. Zones de réensauvagement citoyen
-- 500 zones ciblées (urbaines/périurbaines/rurales), cogérées localement  
-- Coûts = acquisition, renaturation, outils de gouvernance, appui biodiversité  
-- Appui à la pédagogie naturaliste et aux sciences participatives
-
-### 3. Taxe kilométrique sur produits non essentiels
-- Coût = mise en œuvre logistique + plateformisation douanière + contrôle  
-- Impact attendu = réduction de flux >2 000 km sauf produits essentiels  
-- Création d’un indicateur de “distance utile” dans les douanes
-
-### 4. Bonus écologique local
-- Perte fiscale anticipée liée à la baisse de TVA (–2 %) sur produits à haute valeur locale  
-- Critères : fabrication < 500 km, réparabilité élevée, traçabilité  
-- Effet incitatif compensé par relocalisation productive
-
-### 5. TVA éthique participative
-- Taux différenciés (0–5–20–35–45 %) selon niveau d’impact social et écologique  
-- Plateforme citoyenne de vote annuel (produits à basculer ou réévaluer)  
-- Coût = ingénierie fiscale + pédagogie + appui à la délibération démocratique
+- Environ 2 millions de foyers ciblés sur 4 ans  
+- Chèque annuel moyen : 125 à 250 €  
+- Coût total estimé = 700 à 1 000 M€, selon taux de recours  
+- 💡 Estimation : **700–1 000 M€**
 
 ---
 
-## ⚠️ Limites et incertitudes
+## 🌱 2. Réensauvagement encadré
 
-- Évaluation des flux de consommation encore lacunaire à l’échelle territoriale  
-- Risques de contournement de certaines mesures (e-commerce transfrontalier)  
-- Acceptabilité politique des taux différenciés ou de la fiscalité verte  
-- Effets systémiques (sobriété, emploi local, biodiversité) non monétisés mais visés
+- 500 zones restaurées avec cogestion citoyenne  
+- Moyenne de 1,6 M€/zone (acquisition, réhabilitation, médiation)  
+- Appui d’équipes pluridisciplinaires (écologie, culture, gouvernance)  
+- 💡 Estimation : **800–1 000 M€**
+
+---
+
+## 🧰 3. Sobriété désirable
+
+- Campagnes de sensibilisation + accompagnement à la sobriété  
+- Obligation légale de réparabilité sur 10 ans (coût transitoire)  
+- Modification de la commande publique vers l’usage (impact fiscal indirect)  
+- 💡 Estimation : **600–900 M€**
+
+---
+
+## 🛠️ 4. Réseau public de réparation
+
+- Formation de 13 000 réparateurs labellisés (30 à 40 k€ / formation + insertion)  
+- Financement de centres + subventions de pièces détachées  
+- Portail national d’étiquetage et d’aide à la réparation locale  
+- 💡 Estimation : **900–1 100 M€**
+
+---
+
+## 🎭 5. Lutte contre l’obsolescence culturelle
+
+- 1 000 micro-structures soutenues : théâtre, cinéma mobile, culture lente  
+- Subventions aux pratiques basées sur le “moins mais mieux”  
+- Partenariats avec écoles, bibliothèques, maisons de quartier  
+- 💡 Estimation : **500–700 M€**
+
+---
+
+## 🚛 6. Taxe kilométrique écologique
+
+- Logiciel de calcul automatique du kilométrage et surtaxe à la caisse  
+- Ciblage des produits non essentiels importés sur >2 000 km  
+- Compensation possible sous forme de fonds de transition écologique  
+- 💡 Estimation : **500–700 M€**

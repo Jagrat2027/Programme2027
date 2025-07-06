@@ -1,35 +1,57 @@
-# 🔗 Useful Links – 11_Ecology_Lifestyles
+# 🗒️ Research Notes – 11_Ecology_Lifestyles
 
-Institutional, scientific, and operational sources used to support the policy measures in this pillar.
+Summary of cost assumptions for each ecological measure of Pillar XI.
 
-## 📘 References by Theme
+---
 
-### 1. Repairer per local area
-- ADEME – Circular economy and certified repair networks (Répar’acteurs)  
-- France Stratégie – Report on the repair professions  
-- Repair Café France – Participation statistics and local impact reports  
-- Compagnons du Devoir – Manual trades and apprenticeship programs
+## ♻️ 1. Sustainable Lifestyle Tax Credit
 
-### 2. Citizen-led rewilding zones
-- French Biodiversity Office (OFB) – National biodiversity strategy  
-- Rewilding Europe – Local pilot projects and returns on experience  
-- ASPAS – Citizen-managed wilderness reserves  
-- National Forest Association – Participatory renaturation plans
+- Approx. 2 million households targeted over 4 years  
+- Annual voucher: €125 to €250  
+- Total cost depends on uptake rate and eligibility expansion  
+- 💡 Estimate: **€700–1,000 M**
 
-### 3. Kilometric tax on non-essential imports
-- French Customs – Data on logistics and environmental taxation  
-- Foundation for Nature and Mankind – Green fiscal proposals  
-- Eurostat – Geographical data on consumer flows  
-- French Senate – Reports on eco-contributions and extended producer responsibility
+---
 
-### 4. Local ecological bonus
-- INSEE – Local production and short supply chain indicators  
-- ADEME – Durability and repairability studies  
-- ANPP – Territorial clusters for local manufacturing initiatives  
-- France Relance – Support for localized industrial production
+## 🌱 2. Structured Rewilding
 
-### 5. Participatory ethical VAT
-- OECD – Behavior-based taxation and environmental incentives  
-- French Taxation Council – 2021 report on green VAT  
-- Citizens’ Climate Convention – VAT modulation proposals  
-- National Assembly – Participatory budget and fiscal democracy pilots
+- 500 co-managed ecological zones restored  
+- Average of €1.6 million/zone (land, restoration, mediation)  
+- Multidisciplinary support teams (ecology, culture, governance)  
+- 💡 Estimate: **€800–1,000 M**
+
+---
+
+## 🧰 3. Desirable Sobriety
+
+- National awareness campaigns and transition support  
+- 10-year repairability obligation (transitional cost to industry)  
+- Redirection of public procurement towards service-based use  
+- 💡 Estimate: **€600–900 M**
+
+---
+
+## 🛠️ 4. Public Repair Network
+
+- Training and certification of 13,000 repair professionals  
+- Support for repair hubs + subsidies for spare parts  
+- National portal for labelling and local repair access  
+- 💡 Estimate: **€900–1,100 M**
+
+---
+
+## 🎭 5. Cultural Anti-Obsolescence
+
+- Support for 1,000 micro-cultural initiatives: slow culture, mobile cinema, street art  
+- Grants for “less but better” practices in neighborhoods and schools  
+- Collaboration with libraries, community centers, educational institutions  
+- 💡 Estimate: **€500–700 M**
+
+---
+
+## 🚛 6. Ecological Distance Tax
+
+- Automated calculator based on import distance and product type  
+- Applies to non-essential goods imported over 2,000 km  
+- Revenues may fund ecological transition compensation funds  
+- 💡 Estimate: **€500–700 M**
