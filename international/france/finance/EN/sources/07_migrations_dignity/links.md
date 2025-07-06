@@ -1,35 +1,45 @@
-# 🔗 Useful Links – 07_Migrations_Dignity
+# 🔗 Useful Links – 08_Work_Solidarity
 
-Institutional and policy sources supporting the structure and assumptions of the migration and dignity measures.
+Institutional and research sources supporting the logic, feasibility and financial assumptions of the “Work & Solidarity” measures.
 
-## 📘 Key References by Topic
+## 📘 Key References by Theme
 
-### 1. Regularization & Dignity Platform
-- French OFPRA and CNDA reports on asylum & administrative delays
-- National strategy for migrant reception and integration (France)
-- Médecins du Monde & Cimade – field reports on undocumented access to care
+### 1. Fast-Track Activity Creation & Social Protection
+- INSEE – Entrepreneurship and informal economy statistics  
+- URSSAF – Self-employed and micro-entrepreneur schemes  
+- European Commission – “Access to social protection for all workers” report (2019)
 
-### 2. Multilingual Services & Interpreters
-- Inter-Service Migrants (ISM Interprétariat)
-- European Language Industry Association (ELIA) – interpretation norms
-- EU Public Service Interpreting initiatives (EPSI)
+### 2. Community Utility Contract (CUC)
+- France Volontaires – Civic service and voluntary engagement reports  
+- DARES – Evaluation of subsidized employment policies  
+- Coorace & AVISE – Social economy and local initiatives frameworks
 
-### 3. Asylum & Dignity Zones
-- UNHCR shelter guidance & SPHERE standards
-- French humanitarian housing models (Emmaüs, Utopia 56)
-- European Reception Conditions Directive (Directive 2013/33/EU)
+### 3. Universal Dignity Leave
+- OECD – Career breaks, care economy and well-being indicators  
+- CNAV & CAF – Data on parental leave, RSA, and time-off schemes  
+- Fondation Jean-Jaurès – “Temps choisi, temps utile” (2020)
 
-### 4. International Family Mediation
-- ICRC Restoring Family Links network
-- Red Cross and UNHCR tracing and protection services
-- Médiateurs sans frontières (France)
+### 4. Civic Capital at 18
+- France Stratégie – Youth mobility and economic autonomy studies  
+- Observatoire de la jeunesse – Reports on social inequalities at 18  
+- Public policy labs on civic universal income experiments
 
-### 5. Employment & Training Pathways
-- OFII – integration and language contracts
-- France Travail / Pôle Emploi migrant programs
-- OECD: “Jobs for Immigrants” policy reports
+### 5. Contributive Recovery Income (RCR)
+- France Bénévolat – Annual volunteer statistics  
+- CESE – “Recognition of invisible work” (2020)  
+- Maison des Aidants – Data on family caregivers
 
-### 6. Memory & Inclusion Actions
-- CNHI (National Museum of Immigration History – France)
-- European Migration Memory Archive (EMMA)
-- Les Mots de Trop, Tactikollectif, Théâtre de l’Opprimé initiatives
+### 6. Salary Cap at 100× Minimum Wage
+- Oxfam – Reports on income inequality in France and EU  
+- Observatoire des Inégalités – “Les très hauts revenus”  
+- European Parliament – Executive pay ratio debates
+
+### 7. Ethical Success Index (ISE)
+- B Corp Europe – Impact measurement and certification  
+- Le Labo de l’ESS – Enterprise social responsibility studies  
+- France Invest – ESG criteria for business incentives
+
+### 8. Active Solidarity Tax Credit (ASTC)
+- Pro Bono Lab – Corporate volunteerism in France  
+- Admical – Philanthropy and tax-incentivized skills sharing  
+- European Commission – “Social economy and local service contribution” reports
