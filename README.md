@@ -125,8 +125,8 @@ This original repository does not validate or supervise external versions. It re
 
 ## Learn More
 
-- 📊 [Full Program Budget & Financial Plan](./finance/Chiffrage.md)
-- 📘 [TOGAFrance Method – Systemic Transformation](https://github.com/.../TOGAFrance)
+- 📊 [Full Program Budget & Financial Plan](./international/france/finance/README.md)
+- 📘 [TOGAFrance Method – Systemic Transformation](https://github.com/jagrat/TOGAFrance)
 - ✉️ [Open Letter to Elected Officials](./vision/Lettre_aux_elus.md)
 
 ---

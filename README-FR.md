@@ -125,8 +125,8 @@ Ce dépôt d’origine ne valide ni ne contrôle les déclinaisons externes. Il 
 
 ## Pour aller plus loin
 
-- 📊 [Chiffrage complet du programme](./finance/Chiffrage.md)
-- 📘 [Méthode TOGAFrance – Transformation systémique](https://github.com/.../TOGAFrance)
+- 📊 [Chiffrage complet du programme](./international/france/finance/README-FR.md)
+- 📘 [Méthode TOGAFrance – Transformation systémique](https://github.com/jagrat2027/TOGAFrance)
 - ✉️ [Lettre ouverte aux élus](./vision/Lettre_aux_elus.md)
 
 ---
