@@ -68,7 +68,7 @@ _Note : certaines mesures comprennent des pics initiaux (investissements), d’a
 
 ---
 
-## 📈 Objectifs d’ici 2030 (extraits du programme)
+## 📈 Objectifs d’ici 2030
 
 - 100 % des lycéens comprennent la Constitution (version citoyenne enseignée)  
 - Référendum jeunesse en place dès 2028  
