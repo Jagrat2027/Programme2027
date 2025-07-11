@@ -44,8 +44,8 @@ Traditional political platforms are often rigid, opaque, and disconnected from t
 - **Collective Balance:** No one decides alone; every voice matters.
 - **Open Contribution:** Any citizen can suggest, correct, or enrich the content.
 
-📄 [Read the original manifesto online (French)](https://www.jagrat.fr/programme-2027/)  
-📘 A bilingual PDF version (FR/EN) will be available soon in this repository.
+📄 [Read the original manifesto (French)](./medias/Programme%202027%20–%20Jagrat%20–%20Une%20boussole%20pour%20ceux%20qui%20doutent.pdf)
+📄 [Read the original manifesto (English)](./medias/2027%20Programme%20–%20Jagrat%20–%20A%20Compass%20for%20Those%20Who%20Doubt.pdf)  
 
 ---
 
