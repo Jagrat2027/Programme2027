@@ -1,5 +1,11 @@
 # Programme2027 – A Living and Open Source Political Project
 
+---
+
+## 🇫🇷 [Version française du projet ici → README-FR.md](./README-FR.md)
+
+---
+
 **Programme2027** is a living, open, and evolving political program for France – a humanist manifesto grounded in reality, strengthened by collective intelligence and ethical commitment.
 
 This project seeks to inspire, structure, and open a new horizon for the nation, by reconnecting politics with lived experience and citizen participation.  
@@ -10,6 +16,7 @@ Everyone is invited to read, question, adapt, and enrich the program.
 ## Table of Contents
 
 - [Programme2027 – A Living and Open Source Political Project](#programme2027--a-living-and-open-source-political-project)
+  - [🇫🇷 Version française du projet ici → README-FR.md](#-version-française-du-projet-ici--readme-frmd)
   - [Table of Contents](#table-of-contents)
   - [Why a Living and Open Source Program?](#why-a-living-and-open-source-program)
   - [Founding Principles](#founding-principles)

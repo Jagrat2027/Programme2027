@@ -5,10 +5,6 @@ Each country, region, or territory can use the TOGAFrance method, principles, an
 
 ---
 
-## 🇫🇷 [Version française du projet ici → README-FR.md](./README-FR.md)
-
----
-
 ## 🌍 Purpose
 
 Programme2027 is not just a French initiative — it is an open-source civic method.  
