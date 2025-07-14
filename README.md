@@ -1,51 +1,75 @@
-# Programme2027 – A Living, Open Source Political Program
-
-**Programme2027** is a living, open source political program for France—a human-centered, evolving manifesto built on real experience, collective intelligence, and ethical ambition.
-
-This project aims to inspire, structure, and open up a new horizon for the nation, by reconnecting politics with reality and participation.  
-Everyone is invited to read, challenge, adapt, and enrich the program.
+# Programme2027 – A Living and Open Source Political Project
 
 ---
 
-## Why a Living, Open Source Program?
-
-Conventional political platforms are often static, opaque, and disconnected from real life.  
-**Programme2027** is the opposite:  
-- It evolves with input from citizens, professionals, and public agents  
-- It’s transparent and versioned on GitHub  
-- It’s not a collection of promises, but a framework for reconstruction—starting from the ground, needs, and concrete experience
-
-> “A just project can be said simply. Truth belongs to everyone.”
+## 🇫🇷 [Version française du projet ici → README-FR.md](./README-FR.md)
 
 ---
 
-## Guiding Principles
+**Programme2027** is a living, open, and evolving political program for France – a humanist manifesto grounded in reality, strengthened by collective intelligence and ethical commitment.
 
-- **Clarity**: Every proposal must be understandable by a 10-year-old
-- **Reversibility**: No measure is permanent if it breaks human connection
-- **Transmission**: Everything built here should be reusable and improvable
-- **Real Impact**: Actions are judged by what they change in real life
-- **Collective Balance**: No one decides alone; every voice counts
-- **Open Contribution**: Every citizen can suggest, correct, or enrich the text
-
-Read the [full manifesto](./medias/Programme.docx) for details.
+This project seeks to inspire, structure, and open a new horizon for the nation, by reconnecting politics with lived experience and citizen participation.  
+Everyone is invited to read, question, adapt, and enrich the program.
 
 ---
 
-## Structure of the Program
+## Table of Contents
+
+- [Programme2027 – A Living and Open Source Political Project](#programme2027--a-living-and-open-source-political-project)
+  - [🇫🇷 Version française du projet ici → README-FR.md](#-version-française-du-projet-ici--readme-frmd)
+  - [Table of Contents](#table-of-contents)
+  - [Why a Living and Open Source Program?](#why-a-living-and-open-source-program)
+  - [Founding Principles](#founding-principles)
+  - [Program Structure](#program-structure)
+  - [How to Contribute](#how-to-contribute)
+  - [🇫🇷 France \& 🌍 International Use](#-france---international-use)
+  - [License](#license)
+  - [Contacts \& Exchanges](#contacts--exchanges)
+  - [Learn More](#learn-more)
+
+---
+
+## Why a Living and Open Source Program?
+
+Traditional political platforms are often rigid, opaque, and disconnected from the people.  
+**Programme2027** takes the opposite approach:
+
+- It evolves through contributions from citizens, professionals, and public service workers.
+- It is transparent, version-controlled on GitHub, and accessible to all.
+- It is not a list of promises but a human reconstruction framework, built from real needs and field experience.
+
+> “A just project can be said simply. The truth belongs to everyone.”
+
+---
+
+## Founding Principles
+
+- **Clarity:** Every proposal should be understandable by a 10-year-old.
+- **Reversibility:** No reform is final if it breaks the human bond.
+- **Transmission:** Everything created must be reusable and improvable.
+- **Real-World Impact:** Actions are judged by what they actually change in people’s lives.
+- **Collective Balance:** No one decides alone; every voice matters.
+- **Open Contribution:** Any citizen can suggest, correct, or enrich the content.
+
+📄 [Read the original manifesto (French)](./medias/Programme%202027%20–%20Jagrat%20–%20Une%20boussole%20pour%20ceux%20qui%20doutent.pdf)
+📄 [Read the original manifesto (English)](./medias/2027%20Programme%20–%20Jagrat%20–%20A%20Compass%20for%20Those%20Who%20Doubt.pdf)  
+
+---
+
+## Program Structure
 
 1. Constitution & State  
 2. Justice & Transparency  
-3. Liberty & Expression  
+3. Freedom & Expression  
 4. Living Democracy  
 5. Diplomacy & Geopolitics  
 6. Public Services & Transformation  
-7. Migrations & Dignity  
+7. Migration & Dignity  
 8. Work & Solidarity  
 9. Childhood & Transmission  
 10. Sovereignty & Resilience  
-11. Ecology & Ways of Life  
-12. Taxation & Commons  
+11. Ecology & Lifestyles  
+12. Taxation & Common Goods  
 13. Reconciliation & Social Truths  
 14. Defense, Sovereignty & Civil Resilience
 
@@ -54,31 +78,64 @@ Read the [full manifesto](./medias/Programme.docx) for details.
 ## How to Contribute
 
 - **Propose an improvement or local adaptation:**  
-  Submit a pull request or open an issue with your proposal, example, or correction.
+  Submit a pull request or open an issue with your suggestion, correction, or example.
 
 - **Share your field experience:**  
-  Describe a successful initiative, experiment, or lesson learned that could enrich the program.
+  Describe a real initiative, pilot project, or useful lesson to enrich the program.
 
-- **Suggest new principles, measures, or structures:**  
-  Help us build a political program rooted in reality and collective intelligence.
+- **Suggest new principles, policies, or structures:**  
+  Help build a program rooted in experience and collective wisdom.
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+- **Adapt the program for your own country:**  
+  You may fork the repository, translate and adjust the content, and use the framework as a base for local action.
+
+👉 See [CONTRIBUTING.md](./CONTRIBUTNG.md) for detailed guidelines.
+
+---
+
+## 🇫🇷 France & 🌍 International Use
+
+Programme2027 was originally written for France, with a national goal: to present a coherent, citizen-driven alternative by the 2027 presidential election.
+
+However, the project is fully open-source and can be **forked, adapted, or translated** for use in other countries or local contexts.  
+We encourage contributors worldwide to:
+
+- Reuse the structure, method, and values
+- Translate and adjust chapters to their own civic realities
+- Create dedicated adaptation folders (e.g. `/adaptations/Canada`, `/adaptations/Senegal`)
+- Build long-term roadmaps beyond any electoral urgency
+
+👉 See [`ROADMAP-FR.md`](./ROADMAP-FR.md) for the French timeline  
+👉 See [`ROADMAP.md`](./ROADMAP.md) for international, long-term forks
 
 ---
 
 ## License
 
 **Creative Commons BY-SA 4.0**  
-Free to use, adapt, and share, as long as you credit the source and share alike.
+Free to use, adapt, and share — as long as the source is credited and the license is preserved.
 
 ---
 
-## Contact & Discussion
+🛠️ **Important Note:**  
+Programme2027 is a living, open-source political framework. Adaptations, forks, or translations are allowed and encouraged — but remain the sole responsibility of their authors.  
+This original repository does not validate or supervise external versions. It remains the official reference for the original program and its intent.
 
-- Official website: [jagrat.fr](https://jagrat.fr)
-- Email: [Jagrat2027](mailto:jagrat2027@gmail.com)
+---
+
+## Contacts & Exchanges
+
+- 🌐 Official site: [jagrat.fr](https://www.jagrat.fr)
+- 📬 Email: [jagrat2027@gmail.com](mailto:jagrat2027@gmail.com)
+
+---
+
+## Learn More
+
+- 📊 [Full Program Budget & Financial Plan](./international/france/finance/README.md)
+- 📘 [TOGAFrance Method – Systemic Transformation](https://github.com/jagrat/TOGAFrance)
+- ✉️ [Open Letter to Elected Officials](./vision/Lettre_aux_elus.md)
 
 ---
 
 > *A living political program for a living nation.*
-
