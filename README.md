@@ -1,5 +1,11 @@
 # Programme2027 – A Living and Open Source Political Project
 
+---
+
+## 🇫🇷 [Version française du projet ici → README-FR.md](./README-FR.md)
+
+---
+
 **Programme2027** is a living, open, and evolving political program for France – a humanist manifesto grounded in reality, strengthened by collective intelligence and ethical commitment.
 
 This project seeks to inspire, structure, and open a new horizon for the nation, by reconnecting politics with lived experience and citizen participation.  
@@ -10,6 +16,7 @@ Everyone is invited to read, question, adapt, and enrich the program.
 ## Table of Contents
 
 - [Programme2027 – A Living and Open Source Political Project](#programme2027--a-living-and-open-source-political-project)
+  - [🇫🇷 Version française du projet ici → README-FR.md](#-version-française-du-projet-ici--readme-frmd)
   - [Table of Contents](#table-of-contents)
   - [Why a Living and Open Source Program?](#why-a-living-and-open-source-program)
   - [Founding Principles](#founding-principles)
@@ -44,8 +51,8 @@ Traditional political platforms are often rigid, opaque, and disconnected from t
 - **Collective Balance:** No one decides alone; every voice matters.
 - **Open Contribution:** Any citizen can suggest, correct, or enrich the content.
 
-📄 [Read the original manifesto online (French)](https://www.jagrat.fr/programme-2027/)  
-📘 A bilingual PDF version (FR/EN) will be available soon in this repository.
+📄 [Read the original manifesto (French)](./medias/Programme%202027%20–%20Jagrat%20–%20Une%20boussole%20pour%20ceux%20qui%20doutent.pdf)
+📄 [Read the original manifesto (English)](./medias/2027%20Programme%20–%20Jagrat%20–%20A%20Compass%20for%20Those%20Who%20Doubt.pdf)  
 
 ---
 

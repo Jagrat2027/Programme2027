@@ -44,8 +44,8 @@ Les programmes politiques traditionnels sont souvent figés, opaques, déconnect
 - **Équilibre collectif :** Personne ne décide seul, chaque voix compte.
 - **Contribution ouverte :** Tout citoyen peut suggérer, corriger ou enrichir le texte.
 
-📄 [Lire le manifeste original en ligne](https://www.jagrat.fr/programme-2027/)  
-📘 Une version PDF bilingue (FR/EN) sera bientôt disponible dans ce dépôt.
+📄 [Lire le manifeste original (Français)](./medias/Programme%202027%20–%20Jagrat%20–%20Une%20boussole%20pour%20ceux%20qui%20doutent.pdf)
+📄 [Lire le manifeste original (Anglais)](./medias/2027%20Programme%20–%20Jagrat%20–%20A%20Compass%20for%20Those%20Who%20Doubt.pdf) 
 
 ---
 
