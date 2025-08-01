@@ -43,16 +43,16 @@ Les détails complets figurent dans les fichiers `01_...md` à `14_...md`.
 
 ## 🔹 Redéploiements et économies potentielles
 
-| Source                                               | Fourchette basse | Fourchette haute |
-|------------------------------------------------------|------------------|------------------|
-| Réduction partielle des aides publiques aux entreprises | 90 Md €         | 110 Md €         |
-| Gain net attendu de la sortie de l’UE                | 13 Md €          | 17 Md €          |
-| Sortie de l’OTAN (souveraineté stratégique)          | 10 Md €          | 14 Md €          |
-| Réforme structurelle de la police et de la justice   | 4 Md €           | 6 Md €           |
-| Réduction du coût social de la criminalité           | 3 Md €           | 5 Md €           |
-| Contribution exceptionnelle des ultra-riches         | 4 Md €           | 6 Md €           |
+| Source                                                    | Fourchette basse | Fourchette haute |
+|-----------------------------------------------------------|------------------|------------------|
+| Réduction des aides publiques aux entreprises (étendue)   | 160 Md €         | 180 Md €         |
+| Gain net attendu de la sortie de l’UE                     | 13 Md €          | 17 Md €          |
+| Sortie de l’OTAN (souveraineté stratégique)               | 10 Md €          | 14 Md €          |
+| Réforme structurelle de la police et de la justice        | 4 Md €           | 6 Md €           |
+| Réduction du coût social de la criminalité                | 3 Md €           | 5 Md €           |
+| Contribution exceptionnelle des ultra-riches              | 4 Md €           | 6 Md €           |
 
-Ces redéploiements ne sont pas garantis, mais représentent des gisements réalistes d’ajustement budgétaire.
+> **NB** : Le montant des aides aux entreprises redéployables est désormais actualisé selon les données du rapport sénatorial de juillet 2025, évoquant jusqu’à **211 milliards d’euros** sans contreparties. Le programme prévoit une réaffectation **progressive** de **160 à 180 milliards**, conservant une part d’aides conditionnelles réellement utiles.
 
 ---
 

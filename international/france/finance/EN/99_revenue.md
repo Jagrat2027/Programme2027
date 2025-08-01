@@ -1,69 +1,69 @@
-# 🧮 Budget Assumptions for the TOGAFrance 2027 Programme
+# 🧮 Budget Assumptions of the TOGAFrance 2027 Program
 
-This document outlines the economic and fiscal assumptions used to construct the estimated budgets of the **TOGAFrance 2027 Programme**, including projected **expenditures**, **new revenues**, and **budget redeployments**.
+This document presents the economic and fiscal assumptions used to construct the estimated budgets of the **TOGAFrance 2027 program**, including **projected expenditures**, **new revenues**, and **budget reallocations**.
 
-All figures are expressed in **billions of euros (€)** over the period **2027–2030**, unless otherwise specified.
-
----
-
-## 🔹 Methodological principles
-
-- **Low range**: conservative estimate with phased and optimized implementation  
-- **High range**: maximal estimate including full direct public costs  
-- **All amounts are gross and constant euros**  
-- Scope includes **only new measures or those requiring direct public funding**
+All amounts are expressed in **billions of euros (€)** for the period **2027–2030**, unless otherwise stated.
 
 ---
 
-## 🔹 Cost components by pillar
+## 🔹 Methodological Principles
 
-Each pillar includes:
+- **Low estimate**: cautious estimate, with progressive and optimized implementation  
+- **High estimate**: maximum cost including all direct budgetary impacts  
+- **All amounts are gross and in constant euros**  
+- The budget only covers **new measures or those requiring direct public funding**
 
-- Public employment costs (new hires, salary upgrades)  
+---
+
+## 🔹 Cost Breakdown by Pillar
+
+Each budgeted pillar includes:
+
+- Public employment costs (new hires, targeted salary increases)  
 - Infrastructure and training investments  
-- Social benefits or guaranteed income (youth capital, dignity leave…)  
-- Transition costs (audits, EU/NATO exit, administrative reform)  
+- Social rights or guaranteed income (youth endowment, dignity leave…)  
+- Transition costs (audits, NATO/EU exits, administrative overhauls)  
 - Direct public investments (resilience, health, justice, culture…)
 
-Detailed breakdowns are available in files `01_...md` to `14_...md`.
+Detailed breakdowns are in files `01_...md` to `14_...md`.
 
 ---
 
-## 🔹 Estimated new revenues
+## 🔹 Estimated New Revenues
 
-| Source                                       | Low Estimate | High Estimate |
-|---------------------------------------------|--------------|----------------|
-| Legalization of cannabis (adult, cooperatives) | €2.5 B       | €3.5 B         |
-| Luxury goods VAT reform                     | €4 B         | €6 B           |
-| Fluid income tax on high earners (>€120k)   | €12 B        | €18 B          |
-| Enhanced anti-fraud strategy                | €8 B         | €12 B          |
-| Expats’ fiscal contribution (>€1M/year)     | €6 B         | €8 B           |
-
----
-
-## 🔹 Redeployments and potential savings
-
-| Source                                         | Low Estimate | High Estimate |
-|------------------------------------------------|--------------|----------------|
-| Partial cut of corporate subsidies             | €90 B        | €110 B         |
-| Net gain from EU withdrawal                    | €13 B        | €17 B          |
-| NATO withdrawal (strategic autonomy)           | €10 B        | €14 B          |
-| Police and justice reform                      | €4 B         | €6 B           |
-| Reduced crime-related costs (mid-term)         | €3 B         | €5 B           |
-| Exceptional tax on ultra-high incomes          | €4 B         | €6 B           |
-
-These redeployments are not guaranteed but represent realistic opportunities for **budget reallocation**.
+| Source                                             | Low Estimate     | High Estimate    |
+|----------------------------------------------------|------------------|------------------|
+| Cannabis legalization (adult, cooperatives)        | €2.5 B           | €3.5 B           |
+| VAT reform on luxury goods                         | €4 B             | €6 B             |
+| Fluid tax on high incomes (>€120k/year)            | €12 B            | €18 B            |
+| Strengthened tax fraud prevention                  | €8 B             | €12 B            |
+| Tax on expatriates (>€1M/year in income)           | €6 B             | €8 B             |
 
 ---
 
-## ⚠️ Disclaimers
+## 🔹 Potential Reallocations and Savings
 
-- Indirect economic effects (e.g., fewer hospitalizations, greater social cohesion) are **not included**  
-- No assumptions are based on imaginary GDP growth  
-- Every measure is **fundable through redistribution, targeted taxation, or redeployment**  
-- Each measure can be subject to **democratic reversibility or moratorium**
+| Source                                                   | Low Estimate     | High Estimate    |
+|----------------------------------------------------------|------------------|------------------|
+| Reduction of public subsidies to businesses (extended)   | €160 B           | €180 B           |
+| Net gain expected from EU exit                           | €13 B            | €17 B            |
+| NATO withdrawal (strategic sovereignty)                  | €10 B            | €14 B            |
+| Structural reform of police and justice                  | €4 B             | €6 B             |
+| Reduction in the social cost of crime                    | €3 B             | €5 B             |
+| Exceptional contribution from ultra-wealthy individuals  | €4 B             | €6 B             |
+
+> **Note**: The amount of business subsidies eligible for reallocation has been updated based on the Senate report from July 2025, which identified up to **€211 billion** in unconditioned aid. The program provides for a **progressive reallocation** of **€160 to €180 billion**, preserving a share of genuinely useful conditional aid.
+
+---
+
+## ⚠️ Warnings and Disclaimers
+
+- Indirect macroeconomic effects (reduced hospitalizations, increased social cohesion…) are **not included**  
+- No assumptions are based on **imaginary GDP growth**  
+- Each measure is designed to be **funded through redistribution, targeted taxation, or reallocation**  
+- Each measure may be subject to **democratic reversibility or moratorium**, depending on the context
 
 ---
 
 > This budget is not a promise — it is a **provocation to think**.  
-> What does it really cost to rebuild dignity and collective purpose in a nation?
+> What is the real cost of rebuilding dignity and collective meaning in a nation?
