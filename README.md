@@ -126,7 +126,7 @@ This original repository does not validate or supervise external versions. It re
 ## Contacts & Exchanges
 
 - 🌐 Official site: [jagrat.fr](https://www.jagrat.fr)
-- 📬 Email: [jagrat2027@gmail.com](mailto:jagrat2027@gmail.com)
+- 📬 Email: [contact@jagrat.fr](mailto:contact@jagrat.fr)
 
 ---
 
