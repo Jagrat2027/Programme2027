@@ -119,7 +119,7 @@ Ce dépôt d’origine ne valide ni ne contrôle les déclinaisons externes. Il 
 ## Contacts & échanges
 
 - 🌐 Site officiel : [jagrat.fr](https://www.jagrat.fr)
-- 📬 Email : [jagrat2027@gmail.com](mailto:jagrat2027@gmail.com)
+- 📬 Email: [contact@jagrat.fr](mailto:contact@jagrat.fr)
 
 ---
 
