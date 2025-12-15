@@ -9,9 +9,9 @@ Pour garantir l’accessibilité, tous les contenus sont structurés **en deux l
 
 ## 🌍 Arborescence
 
-- `/FR/` → Tous les fichiers en français  
-- `/EN/` → Tous les fichiers en anglais
-
+- [`/FR`](../finance/FR/README.md) → Tous les fichiers en français  
+- [`/EN`](../finance/EN/README.md) → All files in english
+- 
 Chaque sous-dossier contient :
 - Un fichier README  
 - Les fichiers clés (`hypotheses.md`, `synthese.md`, décompositions thématiques)  
