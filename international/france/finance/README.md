@@ -10,7 +10,7 @@ To ensure accessibility and clarity, all content is structured **bilingually**:
 ## 🌍 Folder Structure
 
 - [`/FR`](../FR/README.md) → All files and documents in French  
-- [`/EN/`](../EN/README.md) → All files and documents in English
+- [`/EN`](../EN/README.md) → All files and documents in English
 
 Each subfolder contains:
 - A README
