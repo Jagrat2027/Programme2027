@@ -1,0 +1,30 @@
+name: Traçabilité du chiffrage
+
+on:
+  push:
+    paths:
+      - "international/france/finance/**"
+      - "tools/finance_check.py"
+      - ".github/workflows/tracabilite.yml"
+  pull_request:
+    paths:
+      - "international/france/finance/**"
+      - "tools/finance_check.py"
+      - ".github/workflows/tracabilite.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  controle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      # Échoue sur toute erreur : ligne orpheline, contradiction avec une exigence,
+      # unité inconnue, total de pilier faux, synthèse non régénérée.
+      # Les mesures non chiffrées restent des avertissements (voir le résumé du job).
+      - run: python3 tools/finance_check.py

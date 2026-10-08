@@ -2,8 +2,8 @@
 
 ## 💶 Estimation budgétaire (2027–2031)
 
-- **Fourchette basse : 1,5 milliard €**  
-- **Fourchette haute : 2,5 milliards €**  
+- **Fourchette basse : 1,25 milliard €**  
+- **Fourchette haute : 2,05 milliards €**  
 (*Enveloppe pluriannuelle sur 5 ans, incluant investissements initiaux et dispositifs récurrents*)
   
 👉 Voir hypothèses globales dans `../hypotheses.md`  
