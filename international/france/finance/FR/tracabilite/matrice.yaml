@@ -1,0 +1,638 @@
+# Matrice de traçabilité — Programme2027 (France)
+# Exigence (texte du programme) → mesure → ligne budgétaire.
+# Vérifiée par tools/finance_check.py et la GitHub Action « traçabilité ».
+#
+# Conventions
+# - Coûts des mesures : lus dans les tableaux des fichiers 01_…md à 14_…md
+#   (cumul sur la période du pilier, en M€). Ne pas les recopier ici.
+# - Lignes de recettes et de réaffectation : en Md€ PAR AN (flux annuels
+#   en régime de croisière). Toute ligne doit déclarer son unité.
+# - scenario : central (compté dans le solde), conditionnel (compté seulement
+#   si sa condition est levée), rupture (contredit une exigence : jamais compté),
+#   memoire (affiché pour information, hors solde).
+
+version: 1
+
+parametres:
+  annee_reference: 2025
+  pib_md: 2990            # déduit de déficit 152,5 Md€ = 5,1 % du PIB
+  deficit_md: 152.5       # Insee, comptes 2025 publiés le 27/03/2026
+  charge_interets_md: 64.7
+  dette_md: 3460.5
+  sources:
+    - "https://www.journaldeleconomie.fr/deficit-dette-chiffres-insee/"
+    - "https://www.publicsenat.fr/actualites/economie/211-milliards-deuros-daides-publiques-aux-entreprises-sur-quoi-repose-le-calcul-de-la-commission-denquete-du-senat"
+
+periodes_piliers:        # années couvertes par le tableau de chaque pilier
+  default: 4             # 2027–2030
+  "01": 5                # 2027–2031
+
+exigences:
+  - {id: EX-01, chapitre: "I. Constitution & État"}
+  - {id: EX-02, chapitre: "II. Justice & Transparence"}
+  - {id: EX-03, chapitre: "III. Liberté & Expression"}
+  - {id: EX-04, chapitre: "IV. Démocratie vivante"}
+  - {id: EX-05, chapitre: "V. Diplomatie & Géopolitique"}
+  - id: EX-05-EUROPE
+    chapitre: "V. Diplomatie & Géopolitique"
+    texte: "Nous ne quittons pas l'Europe. Nous refusons de rester dans une logique qui détruit les peuples au nom des marchés."
+    exclut: [sortie_ue]
+  - {id: EX-06, chapitre: "VI. Services publics"}
+  - {id: EX-07, chapitre: "VII. Migrations & Dignité"}
+  - {id: EX-08, chapitre: "VIII. Travail & Solidarités"}
+  - {id: EX-09, chapitre: "IX. Enfance & Transmission"}
+  - {id: EX-10, chapitre: "X. Souveraineté & Résilience"}
+  - {id: EX-11, chapitre: "XI. Écologie & Modes de vie"}
+  - {id: EX-12, chapitre: "XII. Fiscalité & Biens communs"}
+  - {id: EX-13, chapitre: "XIII. Réconciliation & Vérités sociales"}
+  - {id: EX-14, chapitre: "XIV. Sécurité intérieure & résilience civile"}
+
+mesures:
+  # Pilier 01 — 01_constitution_etat.md
+  - id: P01-M01
+    pilier: "01"
+    libelle: "Constitution citoyenne + référendum jeunesse"
+    exigence: EX-01
+  - id: P01-M02
+    pilier: "01"
+    libelle: "Enseignement citoyen en collège"
+    exigence: EX-01
+  - id: P01-M03
+    pilier: "01"
+    libelle: "Journée du peuple souverain"
+    exigence: EX-01
+  - id: P01-M04
+    pilier: "01"
+    libelle: "Langage simple des lois"
+    exigence: EX-01
+  - id: P01-M05
+    pilier: "01"
+    libelle: "Droit à la monnaie physique"
+    exigence: EX-01
+  - id: P01-M06
+    pilier: "01"
+    libelle: "Serment républicain + plateforme civique"
+    exigence: EX-01
+  # Pilier 02 — 02_justice_transparence.md
+  - id: P02-M01
+    pilier: "02"
+    libelle: "Jurys citoyens"
+    exigence: EX-02
+  - id: P02-M02
+    pilier: "02"
+    libelle: "Plateforme de pardon filmé"
+    exigence: EX-02
+  - id: P02-M03
+    pilier: "02"
+    libelle: "Villages d’utilité commune"
+    exigence: EX-02
+  - id: P02-M04
+    pilier: "02"
+    libelle: "Droit au silence & protection IA"
+    exigence: EX-02
+  - id: P02-M05
+    pilier: "02"
+    libelle: "Réécriture des codes en langage citoyen"
+    exigence: EX-02
+  - id: P02-M06
+    pilier: "02"
+    libelle: "Commission indépendante sur les prisons"
+    exigence: EX-02
+  - id: P02-M07
+    pilier: "02"
+    libelle: "Journal public des fautes de l’État"
+    exigence: EX-02
+  # Pilier 03 — 03_liberte_expression.md
+  - id: P03-M01
+    pilier: "03"
+    libelle: "Droit au silence et à la nuance"
+    exigence: EX-03
+  - id: P03-M02
+    pilier: "03"
+    libelle: "Ministère de la pensée libre"
+    exigence: EX-03
+  - id: P03-M03
+    pilier: "03"
+    libelle: "Droit constitutionnel au doute"
+    exigence: EX-03
+  - id: P03-M04
+    pilier: "03"
+    libelle: "Reconnaissance du pseudonymat"
+    exigence: EX-03
+  - id: P03-M05
+    pilier: "03"
+    libelle: "Suppression des délits d’opinion"
+    exigence: EX-03
+  - id: P03-M06
+    pilier: "03"
+    libelle: "Fin de la censure automatisée (IA)"
+    exigence: EX-03
+  - id: P03-M07
+    pilier: "03"
+    libelle: "Audit & abrogation des lois liberticides"
+    exigence: EX-03
+  # Pilier 04 — 04_democratie_vivante.md
+  - id: P04-M01
+    pilier: "04"
+    libelle: "Tirage au sort partiel dans les assemblées"
+    exigence: EX-04
+  - id: P04-M02
+    pilier: "04"
+    libelle: "Mécanisme de révocation des élus"
+    exigence: EX-04
+  - id: P04-M03
+    pilier: "04"
+    libelle: "Assemblée des non-représentés"
+    exigence: EX-04
+  - id: P04-M04
+    pilier: "04"
+    libelle: "Outils de contrôle citoyen & portails de transparence"
+    exigence: EX-04
+  - id: P04-M05
+    pilier: "04"
+    libelle: "Journaux citoyens municipaux"
+    exigence: EX-04
+  - id: P04-M06
+    pilier: "04"
+    libelle: "Extension du droit d’alerte & protection"
+    exigence: EX-04
+  - id: P04-M07
+    pilier: "04"
+    libelle: "Conseil des générations futures"
+    exigence: EX-04
+  # Pilier 05 — 05_diplomatie_geopolitique.md
+  - id: P05-M01
+    pilier: "05"
+    libelle: "Doctrine de neutralité & traités"
+    exigence: EX-05
+  - id: P05-M02
+    pilier: "05"
+    libelle: "Réforme des ambassades"
+    exigence: EX-05
+  - id: P05-M03
+    pilier: "05"
+    libelle: "Réseau de diplomatie civique"
+    exigence: EX-05
+  - id: P05-M04
+    pilier: "05"
+    libelle: "Alliances Sud–Sud"
+    exigence: EX-05
+  - id: P05-M05
+    pilier: "05"
+    libelle: "Diplomatie ouverte (IA, climat, etc.)"
+    exigence: EX-05
+  - id: P05-M06
+    pilier: "05"
+    libelle: "Soutien aux juridictions internationales"
+    exigence: EX-05
+  # Pilier 06 — 06_services_transformation.md
+  - id: P06-M01
+    pilier: "06"
+    libelle: "Services publics de proximité"
+    exigence: EX-06
+  - id: P06-M02
+    pilier: "06"
+    libelle: "Péréquation & fonds d’innovation"
+    exigence: EX-06
+  - id: P06-M03
+    pilier: "06"
+    libelle: "Communs numériques & cloud public"
+    exigence: EX-06
+  - id: P06-M04
+    pilier: "06"
+    libelle: "Accessibilité des transports publics"
+    exigence: EX-06
+  - id: P06-M05
+    pilier: "06"
+    libelle: "Rénovation des écoles"
+    exigence: EX-06
+  - id: P06-M06
+    pilier: "06"
+    libelle: "Emploi public (jeunes & ruralité)"
+    exigence: EX-06
+  - id: P06-M07
+    pilier: "06"
+    libelle: "Maisons France Services+"
+    exigence: EX-06
+  # Pilier 07 — 07_migrations_dignite.md
+  - id: P07-M01
+    pilier: "07"
+    libelle: "Plateforme régularisation & dignité"
+    exigence: EX-07
+  - id: P07-M02
+    pilier: "07"
+    libelle: "Services multilingues & interprètes"
+    exigence: EX-07
+  - id: P07-M03
+    pilier: "07"
+    libelle: "Zones d’asile dignes"
+    exigence: EX-07
+  - id: P07-M04
+    pilier: "07"
+    libelle: "Médiation familiale internationale"
+    exigence: EX-07
+  - id: P07-M05
+    pilier: "07"
+    libelle: "Parcours emploi & formation"
+    exigence: EX-07
+  - id: P07-M06
+    pilier: "07"
+    libelle: "Actions mémorielles & inclusion"
+    exigence: EX-07
+  # Pilier 08 — 08_travail_solidarites.md
+  - id: P08-M01
+    pilier: "08"
+    libelle: "Création d’activité individuelle en 4h..."
+    exigence: EX-08
+    statut_chiffrage: a_reverifier
+    note: "Protection sociale complète dès la déclaration (chômage compris, sans carence) : 1,6–2,4 Md€ sur 4 ans paraît bas pour une couverture universelle. À reprendre avec une hypothèse de nombre de bénéficiaires."
+  - id: P08-M02
+    pilier: "08"
+    libelle: "Contrat d’Utilité Commune (CUC)"
+    exigence: EX-08
+  - id: P08-M03
+    pilier: "08"
+    libelle: "Congé de dignité universel"
+    exigence: EX-08
+  - id: P08-M04
+    pilier: "08"
+    libelle: "Pécule de départ à 18 ans"
+    exigence: EX-08
+    statut_chiffrage: a_reverifier
+    note: "Le programme vise chaque jeune ; le chiffrage retient 300 000 bénéficiaires sur 4 ans (≈ 9 % d'une classe d'âge de ~800 000). Hypothèse d'atténuation retenue : attribution en nature (logement, véhicule, formation) achetée en volume par l'État — réduit la marge, pas le coût de production."
+  - id: P08-M05
+    pilier: "08"
+    libelle: "Revenu Contributif de Relèvement (RCR)"
+    exigence: EX-08
+  - id: P08-M06
+    pilier: "08"
+    libelle: "Plafond salarial à 100 SMIC/mois"
+    exigence: EX-08
+  - id: P08-M07
+    pilier: "08"
+    libelle: "Indice de Succès Éthique (ISE)"
+    exigence: EX-08
+  - id: P08-M08
+    pilier: "08"
+    libelle: "Crédit-impôt Solidarité Active (CISA)"
+    exigence: EX-08
+  # Pilier 09 — 09_enfance_transmission.md
+  - id: P09-M01
+    pilier: "09"
+    libelle: "École lente, éveillée, non technicisée"
+    exigence: EX-09
+  - id: P09-M02
+    pilier: "09"
+    libelle: "Droit au silence et à la parole"
+    exigence: EX-09
+  - id: P09-M03
+    pilier: "09"
+    libelle: "Rencontres avec des artistes vivants"
+    exigence: EX-09
+  - id: P09-M04
+    pilier: "09"
+    libelle: "Journée de transmission inversée"
+    exigence: EX-09
+  - id: P09-M05
+    pilier: "09"
+    libelle: "Lieu de mémoire par commune"
+    exigence: EX-09
+  # Pilier 10 — 10_souverainete_resilience.md
+  - id: P10-M01
+    pilier: "10"
+    libelle: "Moratoire sur les privatisations"
+    exigence: EX-10
+  - id: P10-M02
+    pilier: "10"
+    libelle: "Souveraineté alimentaire"
+    exigence: EX-10
+  - id: P10-M03
+    pilier: "10"
+    libelle: "Souveraineté énergétique"
+    exigence: EX-10
+  - id: P10-M04
+    pilier: "10"
+    libelle: "Souveraineté monétaire assumée"
+    exigence: EX-10
+  - id: P10-M05
+    pilier: "10"
+    libelle: "Numérique éthique & outils publics"
+    exigence: EX-10
+  - id: P10-M06
+    pilier: "10"
+    libelle: "Refondation des traités"
+    exigence: EX-10
+  - id: P10-M07
+    pilier: "10"
+    libelle: "Renforcement du droit local"
+    exigence: EX-10
+  # Pilier 11 — 11_ecologie_modesdevie.md
+  - id: P11-M01
+    pilier: "11"
+    libelle: "Crédit d’impôt mode de vie durable"
+    exigence: EX-11
+  - id: P11-M02
+    pilier: "11"
+    libelle: "Réensauvagement encadré"
+    exigence: EX-11
+  - id: P11-M03
+    pilier: "11"
+    libelle: "Sobriété désirable"
+    exigence: EX-11
+  - id: P11-M04
+    pilier: "11"
+    libelle: "Réseau public de réparation"
+    exigence: EX-11
+  - id: P11-M05
+    pilier: "11"
+    libelle: "Lutte contre l’obsolescence culturelle"
+    exigence: EX-11
+  - id: P11-M06
+    pilier: "11"
+    libelle: "Taxe kilométrique écologique"
+    exigence: EX-11
+  # Pilier 12 — 12_fiscalite_bienscommuns.md
+  - id: P12-M01
+    pilier: "12"
+    libelle: "Barème progressif fluide et solidaire"
+    exigence: EX-12
+  - id: P12-M02
+    pilier: "12"
+    libelle: "Revenu contributif universel"
+    exigence: EX-12
+  - id: P12-M03
+    pilier: "12"
+    libelle: "Plafond de prélèvement global"
+    exigence: EX-12
+  - id: P12-M04
+    pilier: "12"
+    libelle: "Réforme de l’héritage"
+    exigence: EX-12
+  - id: P12-M05
+    pilier: "12"
+    libelle: "TVA éthique, modulée et pédagogique"
+    exigence: EX-12
+  - id: P12-M06
+    pilier: "12"
+    libelle: "Bonus local & réparabilité"
+    exigence: EX-12
+  - id: P12-M07
+    pilier: "12"
+    libelle: "TVA anti-publicité & participative"
+    exigence: EX-12
+  - id: P12-M08
+    pilier: "12"
+    libelle: "Affectations ciblées"
+    exigence: EX-12
+  - id: P12-M09
+    pilier: "12"
+    libelle: "Fin des niches injustes & impôt minimal"
+    exigence: EX-12
+  - id: P12-M10
+    pilier: "12"
+    libelle: "Contribution réelle des multinationales"
+    exigence: EX-12
+  - id: P12-M11
+    pilier: "12"
+    libelle: "Fiscalité du bien commun"
+    exigence: EX-12
+  - id: P12-M12
+    pilier: "12"
+    libelle: "Traçabilité citoyenne de chaque euro"
+    exigence: EX-12
+  # Pilier 13 — 13_reconciliation_verites.md
+  - id: P13-M01
+    pilier: "13"
+    libelle: "Légalisation encadrée du cannabis adulte"
+    exigence: EX-13
+  - id: P13-M02
+    pilier: "13"
+    libelle: "Filière de substituts au tabac"
+    exigence: EX-13
+  - id: P13-M03
+    pilier: "13"
+    libelle: "Pacte de sortie & rédemption citoyenne"
+    exigence: EX-13
+  - id: P13-M04
+    pilier: "13"
+    libelle: "Villages citoyens de réinvention"
+    exigence: EX-13
+  - id: P13-M05
+    pilier: "13"
+    libelle: "Pacte républicain avec les quartiers"
+    exigence: EX-13
+  - id: P13-M06
+    pilier: "13"
+    libelle: "Célébration d’une France plurielle"
+    exigence: EX-13
+  - id: P13-M07
+    pilier: "13"
+    libelle: "Visibilité de la réalité utile de l’immigration"
+    exigence: EX-13
+  # Pilier 14 — 14_defense_resilience.md
+  - id: P14-M01
+    pilier: "14"
+    libelle: "Service civique universel revalorisé"
+    exigence: EX-14
+  - id: P14-M02
+    pilier: "14"
+    libelle: "Audit TOGAFrance – police, gendarmerie, secours"
+    exigence: EX-14
+  - id: P14-M03
+    pilier: "14"
+    libelle: "Journal national des leçons de l’ordre"
+    exigence: EX-14
+  - id: P14-M04
+    pilier: "14"
+    libelle: "Reprise en main des faits divers"
+    exigence: EX-14
+  - id: P14-M05
+    pilier: "14"
+    libelle: "Résilience populaire & autonomie douce"
+    exigence: EX-14
+  - id: P14-M06
+    pilier: "14"
+    libelle: "Cadets de la République"
+    exigence: EX-14
+  - id: P14-M07
+    pilier: "14"
+    libelle: "Centre d’écoute de crise psychologique"
+    exigence: EX-14
+  - id: P14-M08
+    pilier: "14"
+    libelle: "Armée souveraine & technologies stratégiques"
+    exigence: EX-14
+    note: "Coût à retrancher du coût évité OTAN (ligne RA-OTAN)."
+
+  # Mesures du programme dont l'effet budgétaire n'est pas encore chiffré.
+  # Le tableau du pilier 12 ne chiffre que le coût de mise en œuvre,
+  # pas l'effet sur les recettes.
+  - id: NC-TVA-ESSENTIELS
+    pilier: "12"
+    libelle: "TVA à 0 % sur les essentiels (alimentation, soins, livres, eau, transport local, réparation)"
+    exigence: EX-12
+    statut_chiffrage: non_chiffre
+    note: "Perte de recettes de TVA non chiffrée."
+  - id: NC-PLAFOND-60
+    pilier: "12"
+    libelle: "Plafond de prélèvement global à 60 % des revenus"
+    exigence: EX-12
+    statut_chiffrage: non_chiffre
+    note: "Perte de recettes non chiffrée."
+  - id: NC-HERITAGE
+    pilier: "12"
+    libelle: "Plafond de 500 000 € par héritier, excédent vers un fonds commun"
+    exigence: EX-12
+    statut_chiffrage: non_chiffre
+    note: "Recette potentielle non chiffrée."
+  - id: NC-TAXE-KM
+    pilier: "11"
+    libelle: "Taxe kilométrique écologique (rendement)"
+    exigence: EX-11
+    statut_chiffrage: non_chiffre
+    note: "Le pilier 11 chiffre la mise en œuvre, pas le rendement."
+  - id: NC-BDF
+    pilier: "10"
+    libelle: "Financement direct des projets d'utilité collective par la Banque de France (art. 123)"
+    exigence: EX-10
+    statut_chiffrage: non_chiffre
+    note: "Hors budget de l'État ; volume et effet sur la charge d'intérêts à modéliser."
+  - id: PROP-BASCULE-TVA
+    pilier: "12"
+    libelle: "Proposition alternative : bascule du financement de la protection sociale du travail vers la TVA"
+    exigence: EX-12
+    origine: proposition
+    statut_chiffrage: a_justifier
+    note: >-
+      Proposition issue de la revue d'octobre 2026, pas une mesure du programme.
+      Alternative à la suppression des allègements (même groupe), à débattre.
+  - id: RF-EXPATRIES
+    pilier: "12"
+    libelle: "Fiscalité ciblée des expatriés fortunés"
+    exigence: EX-12
+    note: "Absente du texte du programme ; rattachée au chapitre XII. À expliciter dans le programme."
+  - id: RF-ULTRA-RICHES
+    pilier: "12"
+    libelle: "Contribution exceptionnelle des très hauts revenus (> 1 M€/an)"
+    exigence: EX-12
+  - id: RF-FRAUDE
+    pilier: "12"
+    libelle: "Lutte renforcée contre la fraude fiscale"
+    exigence: EX-12
+  - id: RA-AIDES
+    pilier: "12"
+    libelle: "Réduction des aides aux entreprises hors allègements de cotisations"
+    exigence: EX-12
+    note: "Logique du carnet de commandes : la commande publique remplace l'aide de guichet."
+  - id: RA-ALLEGEMENTS
+    pilier: "12"
+    libelle: "Suppression des allègements généraux de cotisations"
+    exigence: EX-12
+  - id: RA-UE
+    pilier: "05"
+    libelle: "Sortie de l'UE (contribution nette)"
+    exigence: EX-05
+  - id: RA-OTAN
+    pilier: "05"
+    libelle: "Sortie du commandement intégré de l'OTAN et refus de la trajectoire de La Haye"
+    exigence: EX-05
+  - id: RA-POLICE-JUSTICE
+    pilier: "14"
+    libelle: "Réforme structurelle police / justice"
+    exigence: EX-14
+  - id: RA-DELINQUANCE
+    pilier: "14"
+    libelle: "Réduction du coût social de la délinquance"
+    exigence: EX-14
+
+lignes:
+  # ---- Recettes nouvelles (Md€/an)
+  - {id: R-CANNABIS, type: recette, mesure: P13-M01, basse: 2.5, haute: 3.5, unite: md_an, scenario: central}
+  - {id: R-TVA-LUXE, type: recette, mesure: P12-M05, basse: 4, haute: 6, unite: md_an, scenario: central}
+  - {id: R-IMPOT-FLUIDE, type: recette, mesure: P12-M01, basse: 12, haute: 18, unite: md_an, scenario: central}
+  - {id: R-FRAUDE, type: recette, mesure: RF-FRAUDE, basse: 8, haute: 12, unite: md_an, scenario: central}
+  - {id: R-EXPATRIES, type: recette, mesure: RF-EXPATRIES, basse: 6, haute: 8, unite: md_an, scenario: central}
+  - {id: R-ULTRA-RICHES, type: recette, mesure: RF-ULTRA-RICHES, basse: 4, haute: 6, unite: md_an, scenario: central}
+
+  # ---- Réaffectations (Md€/an)
+  - id: RA-AIDES
+    type: reaffectation
+    mesure: RA-AIDES
+    basse: 90
+    haute: 95
+    perimetre_max: 95
+    unite: md_an
+    scenario: central
+    statut_chiffrage: a_justifier
+    note: >-
+      Le rapport du Sénat (2023) chiffre 211 Md€ : 75 d'allègements de cotisations,
+      88 de dépenses fiscales, 7 de subventions, 41 d'interventions Bpifrance
+      (prêts et garanties, sans coût budgétaire équivalent). Périmètre budgétaire
+      hors allègements : 95 Md€. Fourchette haute ramenée de 110 à 95 (plafond
+      arithmétique). À ventiler dispositif par dispositif.
+  # Groupe « allegements » : deux options qui s'excluent. Une seule peut
+  # passer en scénario central ; le choix revient au programme.
+  - id: RA-ALLEGEMENTS
+    type: reaffectation
+    mesure: RA-ALLEGEMENTS
+    basse: 75
+    haute: 75
+    unite: md_an
+    scenario: variante
+    groupe: allegements
+    sources:
+      - "https://www.publicsenat.fr/actualites/economie/211-milliards-deuros-daides-publiques-aux-entreprises-sur-quoi-repose-le-calcul-de-la-commission-denquete-du-senat"
+      - "https://www.strategie-plan.gouv.fr/files/2025-01/evolution_cout_du_travail_en_france_-_dss.pdf"
+    note: >-
+      Option A. Rapporte 75 Md€/an (Sénat, 2023) en faisant payer les employeurs.
+      Au SMIC, les cotisations patronales passent d'environ 7 % à environ 47 % du
+      brut (DSS, données 2022) : le coût du travail au SMIC augmente d'environ 37 %.
+  - id: PROP-TVA
+    type: recette
+    mesure: PROP-BASCULE-TVA
+    basse: 0
+    haute: 0
+    unite: md_an
+    scenario: variante
+    groupe: allegements
+    sources:
+      - "https://lessentieldeleco.fr/8323-tva-sociale-comment-fonctionne-le-dispositif/"
+    note: >-
+      Option B. Coût du travail inchangé : les allègements deviennent une baisse
+      de cotisations financée par la TVA. Solde budgétaire nul ; la charge passe
+      aux consommateurs. Ordre de grandeur : environ 13 Md€ par point de TVA sur
+      tous les taux, soit ~6 points pour 75 Md€ (davantage avec la TVA à 0 % sur
+      l'essentiel du pilier XII). Précédents : Allemagne 2007 (16 → 19 %),
+      France 2012 (1,6 point, abrogé avant application).
+  - id: RA-UE
+    type: reaffectation
+    mesure: RA-UE
+    basse: 13
+    haute: 17
+    unite: md_an
+    scenario: rupture
+    hypotheses: [sortie_ue]
+    note: "Contredit EX-05-EUROPE. Conservée comme scénario de rupture, jamais comptée."
+  - id: RA-OTAN
+    type: cout_evite
+    mesure: RA-OTAN
+    basse: 10
+    haute: 14
+    unite: md_an
+    scenario: memoire
+    hypotheses: [refus_trajectoire_la_haye]
+    note: >-
+      Coût évité par rapport à la trajectoire de La Haye (3,5 % du PIB en défense
+      d'ici 2035), pas économie sur la dépense actuelle. Ordre de grandeur :
+      +0,5 point de PIB en moyenne 2027–2030, soit ~15 Md€/an. La sortie du
+      commandement intégré ne dispense pas à elle seule de l'engagement.
+      Retrancher P14-M08 (armée souveraine).
+  - {id: RA-POLICE-JUSTICE, type: reaffectation, mesure: RA-POLICE-JUSTICE, basse: 4, haute: 6, unite: md_an, scenario: central}
+  - id: RA-DELINQUANCE
+    type: cout_evite
+    mesure: RA-DELINQUANCE
+    basse: 3
+    haute: 5
+    unite: md_an
+    scenario: memoire
+    note: "Coût social, pas une ligne du budget de l'État."

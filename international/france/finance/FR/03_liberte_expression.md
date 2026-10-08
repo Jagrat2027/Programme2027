@@ -2,8 +2,8 @@
 
 ## 💶 Estimation budgétaire (2027–2030)
 
-- **Fourchette basse : 850 millions €**
-- **Fourchette haute : 1,4 milliard €**
+- **Fourchette basse : 1,01 milliard €**
+- **Fourchette haute : 1,67 milliard €**
 
 👉 Voir hypothèses globales dans `../hypotheses.md`  
 👉 Voir projections consolidées dans `../synthese.md`  
