@@ -67,12 +67,13 @@ ventilée dispositif par dispositif pour que le solde soit crédible.
 
 | Ligne | Statut | Montant |
 | --- | --- | --- |
-| Suppression des allègements généraux de cotisations | conditionnel | 75 |
+| Suppression des allègements généraux de cotisations | variante (allegements) | 75 |
+| Proposition alternative : bascule du financement de la protection sociale du travail vers la TVA | variante (allegements) | 0 |
 | Sortie de l'UE (contribution nette) | rupture | 13 – 17 |
 | Sortie du commandement intégré de l'OTAN et refus de la trajectoire de La Haye | memoire | 10 – 14 |
 | Réduction du coût social de la délinquance | memoire | 3 – 5 |
 
-- **conditionnel** : compté quand sa condition est chiffrée.
+- **variante** : option d'un groupe d'alternatives qui s'excluent ; une seule pourra entrer dans le solde.
 - **rupture** : contredit une exigence du programme ; jamais compté.
 - **memoire** : coût évité ou coût social, pas une ligne du budget de l'État.
 
@@ -85,6 +86,6 @@ ventilée dispositif par dispositif pour que le solde soit crédible.
 - Plafond de 500 000 € par héritier, excédent vers un fonds commun — non chiffré
 - Taxe kilométrique écologique (rendement) — non chiffré
 - Financement direct des projets d'utilité collective par la Banque de France (art. 123) — non chiffré
-- Bascule du financement de la protection sociale du travail vers la consommation — non chiffré
+- Proposition alternative : bascule du financement de la protection sociale du travail vers la TVA — à justifier
 
 Détail et justification de chaque ligne : `tracabilite/matrice.yaml`. Hypothèses : `hypotheses.md`.

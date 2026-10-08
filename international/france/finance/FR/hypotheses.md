@@ -55,7 +55,7 @@ taxe kilométrique) restent à chiffrer et sont listés dans la synthèse.
 | Source | Md€/an | Statut dans le solde |
 |---|---|---|
 | Réduction des aides aux entreprises **hors allègements de cotisations** | 90 – 95 | Compté (à ventiler) |
-| Suppression des allègements généraux de cotisations | 75 | Conditionnel |
+| Allègements de cotisations : option A (suppression) ou B (bascule vers la TVA) | 75 ou 0 | Variante, hors solde |
 | Réforme police/justice (structure & coût) | 4 – 6 | Compté |
 | Sortie du commandement intégré OTAN (coût évité) | 10 – 14 | Pour mémoire |
 | Réduction du coût social de la délinquance | 3 – 5 | Pour mémoire |
@@ -72,9 +72,17 @@ d’interventions de Bpifrance (prêts et garanties, sans coût budgétaire équ
   publics) remplissent les carnets ; une entreprise aux commandes pleines n’a pas besoin d’aide de guichet.
   La fourchette haute est plafonnée à 95 Md€, le périmètre disponible. Ventilation par dispositif à faire.
 - **Allègements généraux de cotisations (75 Md€)** : ils compensent le financement de la protection sociale
-  par le travail. Les supprimer seuls renchérirait d’environ 30 % le coût du travail au SMIC. La ligne n’est
-  comptée que si la **bascule du financement de la protection sociale vers la consommation** (cohérente
-  avec la TVA modulée du pilier XII) est chiffrée.
+  par le travail. Deux options s'excluent, aucune n'est encore retenue :
+  - **Option A — suppression** : +75 Md€/an pour l'État. Au SMIC, les cotisations patronales passent d'environ
+    7 % à environ 47 % du brut (DSS, données 2022), soit un coût du travail en hausse d'environ 37 %.
+  - **Option B — proposition alternative, hors programme** : bascule du financement vers la TVA. Le coût du
+    travail ne change pas et le solde budgétaire est nul : environ 6 points de TVA sur tous les taux
+    (≈ 13 Md€ par point), davantage avec la TVA à 0 % sur l'essentiel. La charge passe aux consommateurs, y
+    compris retraités et chômeurs ; effet de dévaluation interne favorable à la production en France.
+    Précédents : Allemagne 2007, France 2012 (abrogé avant application).
+
+  Sources : [DSS / France Stratégie](https://www.strategie-plan.gouv.fr/files/2025-01/evolution_cout_du_travail_en_france_-_dss.pdf),
+  [L'Essentiel de l'éco](https://lessentieldeleco.fr/8323-tva-sociale-comment-fonctionne-le-dispositif/).
 
 ### OTAN : un coût évité, pas une économie
 

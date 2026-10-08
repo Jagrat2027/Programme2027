@@ -11,12 +11,13 @@ Le chiffrage du programme « compile » : il échoue s'il est incohérent.
 - une ligne de recette ou de réaffectation sans mesure, sans unité valide, ou au-delà de son périmètre ;
 - une ligne comptée dans le solde alors qu'elle contredit une exigence (ex. sortie de l'UE face à « Nous ne quittons pas l'Europe ») ;
 - un coût évité compté comme une économie ;
+- deux options d'un même groupe (variantes qui s'excluent) comptées en même temps ;
 - un total de pilier qui ne correspond pas à la somme de son tableau ;
 - une `synthese.md` qui n'a pas été régénérée.
 
 ## Ce qui avertit sans bloquer
 
-Les mesures `non_chiffre`, `a_reverifier` ou `a_justifier`, et les ventilations annuelles qui ne retombent pas sur le total. `--strict` les rend bloquantes.
+Les propositions extérieures au programme (`origine: proposition`), les mesures `non_chiffre`, `a_reverifier` ou `a_justifier`, et les ventilations annuelles qui ne retombent pas sur le total. `--strict` les rend bloquantes.
 
 ## Contribuer
 

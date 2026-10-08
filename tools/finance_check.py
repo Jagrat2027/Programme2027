@@ -27,7 +27,7 @@ MATRICE = os.path.join(FIN, "tracabilite", "matrice.yaml")
 SYNTHESE = os.path.join(FIN, "synthese.md")
 
 UNITES = {"md_an"}
-SCENARIOS = {"central", "conditionnel", "rupture", "memoire"}
+SCENARIOS = {"central", "variante", "rupture", "memoire"}
 TYPES = {"recette", "reaffectation", "cout_evite"}
 STATUTS_AVERTIS = {"non_chiffre", "a_reverifier", "a_justifier"}
 
@@ -135,12 +135,24 @@ def controler(m, piliers):
         conflits = [ex for h in l.get("hypotheses", []) for ex in exclusions.get(h, [])]
         if conflits and sc != "rupture":
             err.append(f"[contradiction] Ligne {lid} comptée en « {sc} » mais contredit {', '.join(conflits)}.")
-        if sc == "conditionnel" and l.get("condition") not in mesures:
-            err.append(f"[condition] Ligne {lid} conditionnelle sans condition valide.")
+        if sc == "variante" and not l.get("groupe"):
+            err.append(f"[variante] Ligne {lid} : une variante doit appartenir à un groupe d'options.")
         if sc == "central" and l.get("type") == "cout_evite":
             err.append(f"[nature] Ligne {lid} : un coût évité ne peut pas être compté dans le solde central.")
         if l.get("statut_chiffrage") in STATUTS_AVERTIS:
             warn.append(f"[{l['statut_chiffrage']}] ligne {lid}")
+    groupes = {}
+    for l in m["lignes"]:
+        if l.get("groupe"):
+            groupes.setdefault(l["groupe"], []).append(l)
+    for g, ls in groupes.items():
+        if len(ls) < 2:
+            err.append(f"[groupe] Groupe « {g} » : une seule option.")
+        if sum(1 for l in ls if l["scenario"] == "central") > 1:
+            err.append(f"[groupe] Groupe « {g} » : plusieurs options s'excluant sont comptées en même temps.")
+    for x in m["mesures"]:
+        if x.get("origine") == "proposition":
+            warn.append(f"[proposition] {x['id']} — à valider par consensus avant d'entrer au programme")
     return err, warn
 
 
@@ -173,7 +185,7 @@ def synthese(m, piliers) -> str:
     rec, rb, rh = table(lambda l: l["scenario"] == "central" and l["type"] == "recette")
     rea, ab, ah = table(lambda l: l["scenario"] == "central" and l["type"] == "reaffectation")
     rng = lambda l: fr(l["basse"]) if l["basse"] == l["haute"] else f"{fr(l['basse'])} – {fr(l['haute'])}"
-    hors = [f"| {mes[l['mesure']]['libelle']} | {l['scenario']} | {rng(l)} |"
+    hors = [f"| {mes[l['mesure']]['libelle']} | {l['scenario']}{(' (' + l['groupe'] + ')') if l.get('groupe') else ''} | {rng(l)} |"
             for l in m["lignes"] if l["scenario"] != "central"]
     lib = {"non_chiffre": "non chiffré", "a_reverifier": "à revérifier", "a_justifier": "à justifier"}
     nc = [f"- {x['libelle']} — {lib[x['statut_chiffrage']]}"
@@ -235,7 +247,7 @@ ventilée dispositif par dispositif pour que le solde soit crédible.
 | --- | --- | --- |
 {chr(10).join(hors)}
 
-- **conditionnel** : compté quand sa condition est chiffrée.
+- **variante** : option d'un groupe d'alternatives qui s'excluent ; une seule pourra entrer dans le solde.
 - **rupture** : contredit une exigence du programme ; jamais compté.
 - **memoire** : coût évité ou coût social, pas une ligne du budget de l'État.
 

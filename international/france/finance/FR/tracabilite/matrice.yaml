@@ -497,12 +497,15 @@ mesures:
     exigence: EX-10
     statut_chiffrage: non_chiffre
     note: "Hors budget de l'État ; volume et effet sur la charge d'intérêts à modéliser."
-  - id: NC-BASCULE-PROTECTION-SOCIALE
+  - id: PROP-BASCULE-TVA
     pilier: "12"
-    libelle: "Bascule du financement de la protection sociale du travail vers la consommation"
+    libelle: "Proposition alternative : bascule du financement de la protection sociale du travail vers la TVA"
     exigence: EX-12
-    statut_chiffrage: non_chiffre
-    note: "Condition de la ligne RA-ALLEGEMENTS. Mesure proposée en revue, à valider par l'auteur."
+    origine: proposition
+    statut_chiffrage: a_justifier
+    note: >-
+      Proposition issue de la revue d'octobre 2026, pas une mesure du programme.
+      Alternative à la suppression des allègements (même groupe), à débattre.
   - id: RF-EXPATRIES
     pilier: "12"
     libelle: "Fiscalité ciblée des expatriés fortunés"
@@ -567,18 +570,40 @@ lignes:
       (prêts et garanties, sans coût budgétaire équivalent). Périmètre budgétaire
       hors allègements : 95 Md€. Fourchette haute ramenée de 110 à 95 (plafond
       arithmétique). À ventiler dispositif par dispositif.
+  # Groupe « allegements » : deux options qui s'excluent. Une seule peut
+  # passer en scénario central ; le choix revient au programme.
   - id: RA-ALLEGEMENTS
     type: reaffectation
     mesure: RA-ALLEGEMENTS
     basse: 75
     haute: 75
     unite: md_an
-    scenario: conditionnel
-    condition: NC-BASCULE-PROTECTION-SOCIALE
+    scenario: variante
+    groupe: allegements
+    sources:
+      - "https://www.publicsenat.fr/actualites/economie/211-milliards-deuros-daides-publiques-aux-entreprises-sur-quoi-repose-le-calcul-de-la-commission-denquete-du-senat"
+      - "https://www.strategie-plan.gouv.fr/files/2025-01/evolution_cout_du_travail_en_france_-_dss.pdf"
     note: >-
-      Les allègements compensent le financement de la protection sociale par le
-      travail. Les supprimer sans bascule renchérit d'environ 30 % le coût du
-      travail au SMIC. Non compté tant que la bascule n'est pas chiffrée.
+      Option A. Rapporte 75 Md€/an (Sénat, 2023) en faisant payer les employeurs.
+      Au SMIC, les cotisations patronales passent d'environ 7 % à environ 47 % du
+      brut (DSS, données 2022) : le coût du travail au SMIC augmente d'environ 37 %.
+  - id: PROP-TVA
+    type: recette
+    mesure: PROP-BASCULE-TVA
+    basse: 0
+    haute: 0
+    unite: md_an
+    scenario: variante
+    groupe: allegements
+    sources:
+      - "https://lessentieldeleco.fr/8323-tva-sociale-comment-fonctionne-le-dispositif/"
+    note: >-
+      Option B. Coût du travail inchangé : les allègements deviennent une baisse
+      de cotisations financée par la TVA. Solde budgétaire nul ; la charge passe
+      aux consommateurs. Ordre de grandeur : environ 13 Md€ par point de TVA sur
+      tous les taux, soit ~6 points pour 75 Md€ (davantage avec la TVA à 0 % sur
+      l'essentiel du pilier XII). Précédents : Allemagne 2007 (16 → 19 %),
+      France 2012 (1,6 point, abrogé avant application).
   - id: RA-UE
     type: reaffectation
     mesure: RA-UE
